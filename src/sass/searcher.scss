@@ -1,0 +1,36 @@
+
+ .searcher{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    margin-top: 3vh;
+    width: 300px;
+    input{
+        text-align: center;
+    }
+    .box{
+        display: flex;
+        width: 100%;
+        background: #fff;
+        text-align: left;
+        border: black ridge 1px;
+        border-radius: 10px;
+        img{
+            width: 30%;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        p{  width: 70%;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-weight: bold;
+        }
+      
+       
+    }
+    
+}

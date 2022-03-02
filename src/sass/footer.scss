@@ -1,0 +1,29 @@
+@import './variables.scss';
+.footer{
+    position: fixed;
+    bottom: 0;
+    top: 93%;
+    right: 0;
+    left: 0;
+    background-color: $base-grey;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1.5px solid $base-red;
+    .footer-item{
+        display: flex;
+        padding: 8px;
+        img{
+            margin-right: 10px;
+        }
+        a{color: white;
+        display: flex;
+        &:hover{
+            color: $base-red;
+        }}
+        
+        a.number{
+            margin-right: 5px;
+        }
+    }
+    
+}

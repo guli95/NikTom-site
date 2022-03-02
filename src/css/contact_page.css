@@ -1,0 +1,256 @@
+div.contact-site-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 7%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  margin-bottom: 5vh;
+  z-index: -1;
+}
+
+div.contact-site-wrapper .map {
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: -1;
+}
+
+div.contact-site-wrapper .map .info {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  margin-bottom: 20px;
+}
+
+div.contact-site-wrapper .map .info p, div.contact-site-wrapper .map .info h3 {
+  text-align: center;
+}
+
+div.contact-site-wrapper .login-box {
+  -ms-flex-preferred-size: 55%;
+      flex-basis: 55%;
+  padding: 40px;
+  background: #3c3c3c;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+div.contact-site-wrapper .login-box h2 {
+  margin: 0 0 15px;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+div.contact-site-wrapper .login-box .user-box {
+  position: relative;
+}
+
+div.contact-site-wrapper .login-box .user-box input {
+  width: 100%;
+  padding: 8px 0;
+  font-size: 12px;
+  color: black;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  background: white;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+div.contact-site-wrapper .login-box .user-box input:focus,
+div.contact-site-wrapper .login-box .user-box textarea:focus {
+  border: 1.5px solid #e30713;
+  outline: none !important;
+}
+
+div.contact-site-wrapper .login-box .user-box label {
+  top: -20px;
+  left: 0;
+  color: white;
+  font-size: 12px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+div.contact-site-wrapper .login-box .user-box textarea {
+  display: block;
+  width: 100%;
+}
+
+div.contact-site-wrapper .login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #e30713;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  text-align: center;
+  width: 100%;
+}
+
+div.contact-site-wrapper .login-box a:hover {
+  background: #e30713;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px #e30713, 0 0 25px #e30713, 0 0 50px #e30713, 0 0 100px #e30713;
+          box-shadow: 0 0 5px #e30713, 0 0 25px #e30713, 0 0 50px #e30713, 0 0 100px #e30713;
+}
+
+div.contact-site-wrapper .login-box a span {
+  position: absolute;
+  display: block;
+}
+
+div.contact-site-wrapper .login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(#e30713));
+  background: linear-gradient(90deg, transparent, #e30713);
+  -webkit-animation: btn-anim1 1s linear infinite;
+          animation: btn-anim1 1s linear infinite;
+}
+
+@-webkit-keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+
+div.contact-site-wrapper .login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#e30713));
+  background: linear-gradient(180deg, transparent, #e30713);
+  -webkit-animation: btn-anim2 1s linear infinite;
+          animation: btn-anim2 1s linear infinite;
+  -webkit-animation-delay: .25s;
+          animation-delay: .25s;
+}
+
+@-webkit-keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+
+div.contact-site-wrapper .login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, right top, left top, from(transparent), to(white));
+  background: linear-gradient(270deg, transparent, white);
+  -webkit-animation: btn-anim3 1s linear infinite;
+          animation: btn-anim3 1s linear infinite;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+@-webkit-keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%, 100% {
+    right: 100%;
+  }
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%, 100% {
+    right: 100%;
+  }
+}
+
+div.contact-site-wrapper .login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(transparent), to(#e30713));
+  background: linear-gradient(360deg, transparent, #e30713);
+  -webkit-animation: btn-anim4 1s linear infinite;
+          animation: btn-anim4 1s linear infinite;
+  -webkit-animation-delay: .75s;
+          animation-delay: .75s;
+}
+
+@-webkit-keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
+  }
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
+  }
+}
+/*# sourceMappingURL=contact_page.css.map */
