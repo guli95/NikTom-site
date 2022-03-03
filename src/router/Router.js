@@ -107,6 +107,27 @@ import PaintedPromar from "../pages/spreaders/PaintedPromar";
 import PaintedLangren from "../pages/spreaders/PaintedLangren";
 import GalvanizedPromar from "../pages/spreaders/GalvanizedPromar";
 import StainlessLangren from "../pages/spreaders/StainlressLangren";
+import PremiumLangren from "../pages/spreaders/PremiumLangren";
+import FieldLangren from "../pages/spreaders/FieldLangren";
+import FunnelStrumyk from "../pages/spreaders/FunnelStrumyk";
+import OrchardStrumyk from "../pages/spreaders/OrchardStrumyk";
+import OrchardLangren from "../pages/spreaders/OrchardLangren";
+import PaintedOrchardLangren from "../pages/spreaders/PaintedOrchardLangren";
+import StainlessOrchardLangren from "../pages/spreaders/StainlessOrchardLangren";
+import SandyCalciumLangren from "../pages/spreaders/SandyCalciumLangren";
+import MountedSprayers from "../pages/mounted-sprayers/MountedSprayers";
+import Bruno1000Tolmet from "../pages/mounted-sprayers/Bruno1000Tolmet";
+import Promar1 from "../pages/mounted-sprayers/Promar1";
+import Promar2 from "../pages/mounted-sprayers/Promar2";
+import Bruno1200Tolmet from "../pages/mounted-sprayers/Bruno1200Tolmet";
+import Promar15001 from "../pages/mounted-sprayers/Promar15001";
+import Promar15002 from "../pages/mounted-sprayers/Promar15002";
+import Bruno1500Tolmet from "../pages/mounted-sprayers/Bruno1500Tolmet";
+import Promar17001 from "../pages/mounted-sprayers/Promar17001";
+import Promar2000 from "../pages/mounted-sprayers/Promar2000";
+import Bruno2000Tolmet from "../pages/mounted-sprayers/Bruno2000Tolmet";
+import Promar2500 from "../pages/mounted-sprayers/Promar2500";
+import Bruno2500Tolmet from "../pages/mounted-sprayers/Bruno2500Tolmet";
 
 const RoutesApp = () => {
   return (
@@ -520,6 +541,93 @@ const RoutesApp = () => {
           <Route
             path="/rozsiewacze/dwutarczowy-nierdzewny-langren"
             element={<StainlessLangren />}
+          ></Route>
+          <Route
+            path="/rozsiewacze/dwutarczowy-premium-langren"
+            element={<PremiumLangren />}
+          ></Route>
+          <Route
+            path="/rozsiewacze/polowy-lejek-langren"
+            element={<FieldLangren />}
+          ></Route>
+          <Route
+            path="/rozsiewacze/lejek-strumyk"
+            element={<FunnelStrumyk />}
+          ></Route>
+          <Route
+            path="/rozsiewacze/sadowniczy-lejek-strumyk"
+            element={<OrchardStrumyk />}
+          ></Route>
+          <Route
+            path="/rozsiewacze/sadowniczy-lejek-langren"
+            element={<OrchardLangren />}
+          ></Route>
+          <Route
+            path="/rozsiewacze/sadowniczy-langren-malowany"
+            element={<PaintedOrchardLangren />}
+          ></Route>
+          <Route
+            path="/rozsiewacze/sadowniczy-nierdzewny-langren"
+            element={<StainlessOrchardLangren />}
+          ></Route>
+          <Route
+            path="/rozsiewacze/wapnia-soli-i-piasku-langren"
+            element={<SandyCalciumLangren />}
+          ></Route>
+          {
+            //opryskiwacze zawieszane
+          }
+          <Route
+            path="/opryskiwacze-zawieszane"
+            element={<MountedSprayers />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/bruno-1000-tolmet"
+            element={<Bruno1000Tolmet />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/promar-1200-12-15"
+            element={<Promar1 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/promar-1200-18"
+            element={<Promar2 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/bruno-1200-tolmet"
+            element={<Bruno1200Tolmet />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/promar-1500-15"
+            element={<Promar15001 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/promar-1500-18"
+            element={<Promar15002 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/bruno-1500-tolmet"
+            element={<Bruno1500Tolmet />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/promar-1700-15-18"
+            element={<Promar17001 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/promar-2000-15-18"
+            element={<Promar2000 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/bruno-2000-tolmet"
+            element={<Bruno2000Tolmet />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/promar-2500-15-18"
+            element={<Promar2500 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/bruno-2500-tolmet"
+            element={<Bruno2500Tolmet />}
           ></Route>
         </Routes>
       </ScrollToTop>

@@ -86,7 +86,7 @@ const ItemList = () => (
       img={require("../images/dji-5331597_1280.jpg")}
       alt="opryskiwacz zawieszany"
       name="Opryskiwacze Zawieszane"
-      link="agregaty"
+      link="opryskiwacze-zawieszane"
     />
     <ItemCard
       img={require("../images/dji-5331597_1280.jpg")}
