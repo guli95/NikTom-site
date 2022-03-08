@@ -92,13 +92,37 @@ const ItemList = () => (
       img={require("../images/dji-5331597_1280.jpg")}
       alt="opryskiwacz ciągany"
       name="Opryskiwacze Ciągane"
-      link="opryskiwacze-ciągane"
+      link="opryskiwacze-ciagane"
     />
     <ItemCard
       img={require("../images/dji-5331597_1280.jpg")}
       alt="zbiornik paliwa"
       name="Zbiorniki Paliwa"
       link="zbiorniki-paliwa"
+    />
+    <ItemCard
+      img={require("../images/dji-5331597_1280.jpg")}
+      alt="włóki polowe"
+      name="włóki polowe"
+      link="wloki-polowe"
+    />
+    <ItemCard
+      img={require("../images/dji-5331597_1280.jpg")}
+      alt="osprzęt"
+      name="osprzęt"
+      link="osprzet"
+    />
+    <ItemCard
+      img={require("../images/dji-5331597_1280.jpg")}
+      alt="pozostałe"
+      name="pozostałe"
+      link="pozostale"
+    />
+    <ItemCard
+      img={require("../images/dji-5331597_1280.jpg")}
+      alt="siewniki poplonów"
+      name="siewniki poplonów"
+      link="siewniki-poplonow"
     />
   </div>
 );

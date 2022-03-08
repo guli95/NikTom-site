@@ -4,35 +4,27 @@ import ItemCard from "../../components/ItemCard";
 import Footer from "../../components/Footer";
 import "../../css/item_card.css";
 import "../../css/item_list.css";
+import data from "../../data";
 
 const TillingsSets = () => (
   <div>
     <Navigation />
     <div className="item_list">
-      <ItemCard
-        img={require("../../images/dji-5331597_1280.jpg")}
-        alt="agregat uprawowy"
-        name="Agregat uprawowo-przedsiewny EURO-MASZ(AU)"
-        link="/agregaty-uprawowe/euro-maszau"
-      />
-      <ItemCard
-        img={require("../../images/dji-5331597_1280.jpg")}
-        alt="agregat uprawowy"
-        name="Agregat uprawowy cieżki EURO-MASZ(AUC)"
-        link="/agregaty-uprawowe/euro-maszauc"
-      />
-      <ItemCard
-        img={require("../../images/dji-5331597_1280.jpg")}
-        alt="agregat uprawowy"
-        name={`Agregat uprawowy "nietoperek" strumyk`}
-        link="/agregaty-uprawowe/nietoperek"
-      />
-      <ItemCard
-        img={require("../../images/dji-5331597_1280.jpg")}
-        alt="agregat uprawowy"
-        name={`Agregat uprawowy "NEON" TOLMET`}
-        link="/agregaty-uprawowe/neon"
-      />
+      {data.map((item) => {
+        // const url= item.url.pop()
+        if (item.id <= 4) {
+          return (
+            <ItemCard
+              // img="../../images/dji-5331597_1280.jpg"
+              img={require(`../../${item.imgUrl}`)}
+              alt={item.name}
+              name={item.name}
+              link={item.route}
+              key={item.id}
+            />
+          );
+        }
+      })}
     </div>
 
     <Footer />

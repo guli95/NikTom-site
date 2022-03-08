@@ -23,7 +23,7 @@ const Searcher = () => {
           key={item.id}
           style={{ textDecoration: "none" }}
         >
-          {item.imgUrl}
+          <img src={require(`../${item.searcherImg}`)} alt={item.name} />
           <p>{item.name}</p>
         </Link>
       ))}

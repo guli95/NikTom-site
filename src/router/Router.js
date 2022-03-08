@@ -128,6 +128,43 @@ import Promar2000 from "../pages/mounted-sprayers/Promar2000";
 import Bruno2000Tolmet from "../pages/mounted-sprayers/Bruno2000Tolmet";
 import Promar2500 from "../pages/mounted-sprayers/Promar2500";
 import Bruno2500Tolmet from "../pages/mounted-sprayers/Bruno2500Tolmet";
+import TrailedSprayers from "../pages/trailed-sprayers/TrailedSprayers";
+import BrunoX1000 from "../pages/trailed-sprayers/BrunoX1000";
+import Promar1215HX from "../pages/trailed-sprayers/Promar1215HX";
+import Promar12001518 from "../pages/trailed-sprayers/Promar12001518";
+import BrunoX1200 from "../pages/trailed-sprayers/BrunoX1200";
+import Promar1515HX from "../pages/trailed-sprayers/Promar1515HX";
+import Promar15001518 from "../pages/trailed-sprayers/Promar15001518";
+import BrunoX1500 from "../pages/trailed-sprayers/BrunoX1500";
+import Borys1500 from "../pages/trailed-sprayers/Borys1500";
+import Promar17001518 from "../pages/trailed-sprayers/Promar17001518";
+import Promar2015HX from "../pages/trailed-sprayers/Promar2015HX";
+import Promar2000151821 from "../pages/trailed-sprayers/Promar2000151821";
+import BrunoX2000 from "../pages/trailed-sprayers/BrunoX2000";
+import Borys2000 from "../pages/trailed-sprayers/Borys2000";
+import Promar2018HU from "../pages/trailed-sprayers/Promar2018HU";
+import Promar2021HU from "../pages/trailed-sprayers/Promar2021HU";
+import Promar2515HX from "../pages/trailed-sprayers/Promar2515HX";
+import Promar2518HU from "../pages/trailed-sprayers/Promar2518HU";
+import Promar2521HU from "../pages/trailed-sprayers/Promar2521HU";
+import Promar2500151821 from "../pages/trailed-sprayers/Promar2500151821";
+import BrunoX2500 from "../pages/trailed-sprayers/BrunoX2500";
+import Borys2500 from "../pages/trailed-sprayers/Borys2500";
+import Promar3000151821 from "../pages/trailed-sprayers/Promar3000151821";
+import Borys3000 from "../pages/trailed-sprayers/Borys3000";
+import Promar1000Duo from "../pages/trailed-sprayers/Promar1000Duo";
+import Promar1500Duo from "../pages/trailed-sprayers/Promar1500Duo";
+import Promar1000Oktopus from "../pages/trailed-sprayers/Promar1000Oktopus";
+import Promar1500Oktopus from "../pages/trailed-sprayers/Promar1500Oktopus";
+import FuelTanks from "../pages/fuel-tanks/FuelTanks";
+import FuelStation1600 from "../pages/fuel-tanks/FuelStation1600";
+import FuelStation2500 from "../pages/fuel-tanks/FuelStation2500";
+import FuelStation5000 from "../pages/fuel-tanks/FuelStation5000";
+import ATMP from "../pages/field-drags/ATMP";
+import FieldDrags from "../pages/field-drags/FieldDrags";
+import Equipment from "../pages/equipment/Equipment";
+import BaleGrapple from "../pages/equipment/BaleGrapple";
+import TreeGrapple from "../pages/equipment/TreeGrapple";
 
 const RoutesApp = () => {
   return (
@@ -628,6 +665,155 @@ const RoutesApp = () => {
           <Route
             path="/opryskiwacze-zawieszane/bruno-2500-tolmet"
             element={<Bruno2500Tolmet />}
+          ></Route>
+          {
+            //Opryskiwacze ciągane
+          }
+
+          <Route
+            path="/opryskiwacze-ciagane"
+            element={<TrailedSprayers />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/bruno-x-1000-tolmet"
+            element={<BrunoX1000 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/1215-hx-promar"
+            element={<Promar1215HX />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/1200-15-18-promar"
+            element={<Promar12001518 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/bruno-x-1200-tolmet"
+            element={<BrunoX1200 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/1515-hx-promar"
+            element={<Promar1515HX />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/1500-15-18-promar"
+            element={<Promar15001518 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/bruno-x-1500-tolmet"
+            element={<BrunoX1500 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/borys-1500-tolmet"
+            element={<Borys1500 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/1700-15-18-promar"
+            element={<Promar17001518 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/2015-hx-promar"
+            element={<Promar2015HX />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/2000-15-18-21-promar"
+            element={<Promar2000151821 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/bruno-x-2000-tolmet"
+            element={<BrunoX2000 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/borys-2000-tolmet"
+            element={<Borys2000 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/2018-hu-promar"
+            element={<Promar2018HU />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/2021-hu-promar"
+            element={<Promar2021HU />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/2515-hx-promar"
+            element={<Promar2515HX />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/2518-hu-promar"
+            element={<Promar2518HU />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/2521-hu-promar"
+            element={<Promar2521HU />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/2500-15-18-21-promar"
+            element={<Promar2500151821 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/bruno-x-2500-tolmet"
+            element={<BrunoX2500 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/borys-2500-tolmet"
+            element={<Borys2500 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/3000-15-18-21-promar"
+            element={<Promar3000151821 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/borys-3000-tolmet"
+            element={<Borys3000 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/1000-duo-promar"
+            element={<Promar1000Duo />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/1500-duo-promar"
+            element={<Promar1500Duo />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/1000-oktopus-promar"
+            element={<Promar1000Oktopus />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-ciagane/1500-oktopus-promar"
+            element={<Promar1500Oktopus />}
+          ></Route>
+          {
+            //zbiorniki paliwa
+          }
+          <Route path="/zbiorniki-paliwa" element={<FuelTanks />}></Route>
+          <Route
+            path="/zbiorniki-paliwa/dwuplaszczowy-1600-1300"
+            element={<FuelStation1600 />}
+          ></Route>
+          <Route
+            path="/zbiorniki-paliwa/dwuplaszczowy-2500"
+            element={<FuelStation2500 />}
+          ></Route>
+          <Route
+            path="/zbiorniki-paliwa/dwuplaszczowy-5000"
+            element={<FuelStation5000 />}
+          ></Route>
+          {
+            //włóki polowe
+          }
+          <Route path="/wloki-polowe" element={<FieldDrags />}></Route>
+          <Route path="/wloki-polowe/atmp" element={<ATMP />}></Route>
+          {
+            //osprzęt
+          }
+          <Route path="/osprzet" element={<Equipment />}></Route>
+          <Route
+            path="/osprzet/chwytak-do-bel"
+            element={<BaleGrapple />}
+          ></Route>
+          <Route
+            path="/osprzet/chwytak-do-drzewa"
+            element={<TreeGrapple />}
           ></Route>
         </Routes>
       </ScrollToTop>
