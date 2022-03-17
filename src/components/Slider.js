@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useRef } from "react";
 import { Carousel, Button } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
 import "../css/slider.css";
 
 const Slider = () => {

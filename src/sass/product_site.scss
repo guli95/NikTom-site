@@ -1,5 +1,26 @@
 div.wrapper{
+    margin-top: 11vh;
     display: flex;
-    position: absolute;
-    top: 20%;
+    flex-direction: column;
+    align-items: center;
+    img{
+        margin: 2% 0 2% 0;
+    }
+    p{text-align: center;
+    margin: 2%;}
+    .box{display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 2%;
+    .table-info{
+        flex-basis: 40%;
+        font-size: 14px;
+        th{text-align: center;
+            white-space: nowrap;
+        }
+    }
+    .assets{
+        flex-basis: 40%;
+    }
+}
 }

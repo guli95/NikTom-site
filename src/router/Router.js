@@ -165,6 +165,23 @@ import FieldDrags from "../pages/field-drags/FieldDrags";
 import Equipment from "../pages/equipment/Equipment";
 import BaleGrapple from "../pages/equipment/BaleGrapple";
 import TreeGrapple from "../pages/equipment/TreeGrapple";
+import BucketStandard from "../pages/equipment/BucketStandard";
+import BucketCapacitive from "../pages/equipment/BucketCapacitive";
+import BucketUniversal from "../pages/equipment/BucketUniversal";
+import BucketVolume from "../pages/equipment/BucketVolume";
+import ManureForks from "../pages/equipment/ManureForks";
+import ForkForgedCrocodile from "../pages/equipment/ForkForgedCrocodile";
+import ForkForgedCrocodileXL from "../pages/equipment/ForkForgedCrocodileXL";
+import ForkBurnedCrocodile from "../pages/equipment/ForkBurnedCrocodile";
+import ForkBurnedCrocodileXL from "../pages/equipment/ForkBurnedCrocodileXL";
+import ForkCrocodileMax from "../pages/equipment/ForkCrocodileMax";
+import ForkCrocodileMaxXL from "../pages/equipment/ForkCrocodileMaxXL";
+import PalletForks from "../pages/equipment/PalletForks";
+import Clow from "../pages/equipment/Clow";
+import BaleFork from "../pages/equipment/BaleFork";
+import HydraulicFork from "../pages/equipment/HydraulicFork";
+import Mixer from "../pages/equipment/Mixer";
+import AdapterEuro from "../pages/equipment/AdapterEuro";
 
 const RoutesApp = () => {
   return (
@@ -814,6 +831,74 @@ const RoutesApp = () => {
           <Route
             path="/osprzet/chwytak-do-drzewa"
             element={<TreeGrapple />}
+          ></Route>
+          <Route
+            path="/osprzet/lycha-do-wozka-widlowego-standard"
+            element={<BucketStandard />}
+          ></Route>
+          <Route
+            path="/osprzet/lycha-do-wozka-widlowego-pojemnosciowa"
+            element={<BucketCapacitive />}
+          ></Route>
+          <Route
+            path="/osprzet/lycha-uniwersalna"
+            element={<BucketUniversal />}
+          ></Route>
+          <Route
+            path="/osprzet/lycha-pojemnosciowa"
+            element={<BucketVolume />}
+          ></Route>
+          <Route
+            path="/osprzet/widly-do-obornika"
+            element={<ManureForks />}
+          ></Route>
+          <Route
+            path="/osprzet/szuflo-krokodyl-kuty"
+            element={<ForkForgedCrocodile />}
+          ></Route>
+          <Route
+            path="/osprzet/szuflo-krokodyl-xl-kuty"
+            element={<ForkForgedCrocodileXL />}
+          ></Route>
+          <Route
+            path="/osprzet//osprzet/szuflo-krokodyl-zab-palony"
+            element={<ForkBurnedCrocodile />}
+          ></Route>
+          <Route
+            path="/osprzet/szuflo-krokodyl-xl-zab-palony"
+            element={<ForkBurnedCrocodileXL />}
+          ></Route>
+          <Route
+            path="/osprzet/szuflo-krokodyl-max"
+            element={<ForkCrocodileMax />}
+          ></Route>
+          <Route
+            path="/osprzet/szuflo-krokodyl-max-xl"
+            element={<ForkCrocodileMaxXL />}
+          ></Route>
+          <Route
+            path="/osprzet/widly-do-palet"
+            element={<PalletForks />}
+          ></Route>
+          <Route
+            path="/osprzet/pazur-do-widel-do-palet"
+            element={<Clow />}
+          ></Route>
+          <Route
+            path="/osprzet//osprzet/widly-do-bel"
+            element={<BaleFork />}
+          ></Route>
+          <Route
+            path="/osprzet/widly-hydrauliczne"
+            element={<HydraulicFork />}
+          ></Route>
+          <Route
+            path="/osprzet/mieszalnik do betonu/paszy"
+            element={<Mixer />}
+          ></Route>
+          <Route
+            path="/osprzet/adapter-euroramka"
+            element={<AdapterEuro />}
           ></Route>
         </Routes>
       </ScrollToTop>
