@@ -6,17 +6,19 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  height: 50vh;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
   margin-top: 3vh;
   width: 400px;
+  overflow: auto;
 }
 
 .searcher input {
   text-align: center;
-  height: 50%;
+  min-height: 50px;
+  display: block;
 }
 
 .searcher .box {

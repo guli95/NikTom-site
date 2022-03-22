@@ -1,5 +1,6 @@
 div.wrapper {
   margin-top: 11vh;
+  padding-bottom: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,7 +13,82 @@ div.wrapper {
           align-items: center;
 }
 
-div.wrapper img {
+div.wrapper .product-title {
+  margin: 2%;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  background: url(../images/title-bgc.jpg);
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.08);
+  -webkit-animation: zoomout 30s linear 500ms forwards infinite;
+          animation: zoomout 30s linear 500ms forwards infinite;
+}
+
+@-webkit-keyframes zoomout {
+  from {
+    background-size: 40%;
+  }
+  to {
+    background-size: 10%;
+  }
+}
+
+@keyframes zoomout {
+  from {
+    background-size: 40%;
+  }
+  to {
+    background-size: 10%;
+  }
+}
+
+div.wrapper .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.wrapper .description ul:nth-child(2) {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#e30713));
+  background: linear-gradient(#3c3c3c, #e30713);
+}
+
+div.wrapper .description ul:nth-child(2):hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e30713), to(#3c3c3c));
+  background: linear-gradient(#e30713, #3c3c3c);
+}
+
+div.wrapper ul {
+  color: white;
+  border-radius: 10%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 2%;
+  padding: 2%;
+  list-style: square;
+  text-align: left;
+  line-height: 200%;
+  font-family: sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e30713), to(#3c3c3c));
+  background: linear-gradient(#e30713, #3c3c3c);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+div.wrapper ul:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#e30713));
+  background: linear-gradient(#3c3c3c, #e30713);
+}
+
+div.wrapper .main-img {
   margin: 2% 0 2% 0;
 }
 
@@ -28,23 +104,32 @@ div.wrapper .box {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  width: 100%;
-  margin-top: 2%;
+  margin: 2% auto 2% auto;
 }
 
 div.wrapper .box .table-info {
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
   font-size: 14px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+div.wrapper .box .table-info th:first-child {
+  font-weight: bold;
 }
 
 div.wrapper .box .table-info th {
   text-align: center;
   white-space: nowrap;
+  padding: 10px;
 }
 
 div.wrapper .box .assets {
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=product_site.css.map */

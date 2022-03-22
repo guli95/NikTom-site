@@ -523,7 +523,7 @@ const data = [
     imgUrl: "images/dji-5331597_1280.jpg",
     searcherImg: "images/logo.jpg",
     route: "/glebosze/michael-gs",
-    id: 74,
+    id: 7401,
   },
   {
     name: `Głebosz zab zrywalne "Michael" Armasz`,
@@ -649,7 +649,7 @@ const data = [
     imgUrl: "images/dji-5331597_1280.jpg",
     searcherImg: "images/logo.jpg",
     route: "/rozsiewacze/dwutarczowy-premium-langren",
-    id: 91,
+    id: 9101,
   },
   {
     name: `rozsiewacz polowy typu lejek Langren`,

@@ -1,26 +1,85 @@
+@import "./variables.scss";
 div.wrapper{
     margin-top: 11vh;
+    padding-bottom: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    img{
+    .product-title {
+        margin: 2%;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 35px;
+        font-weight: 900;
+        background: url(../images/title-bgc.jpg);
+        background-size: 40%;
+        background-position: 50% 50%;
+        -webkit-background-clip: text;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgba(0,0,0,0.08);
+        animation: zoomout 30s linear 500ms forwards infinite;
+      }
+      
+      @keyframes zoomout {
+        from {
+          background-size: 40%;
+        }
+        to {
+          background-size: 10%;
+        }
+      }
+    .description{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        ul:nth-child(2){
+            background: linear-gradient($base-grey, $base-red);
+            &:hover{
+                background: linear-gradient($base-red, $base-grey);
+            }
+        }
+        
+    }
+    ul{
+        color: white;
+        border-radius: 10%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 2%;
+        padding: 2%;
+        list-style:square;
+        text-align: left;
+        line-height: 200%;
+        font-family: sans-serif;
+        background: linear-gradient($base-red, $base-grey);
+        transition: 1s;
+        &:hover{
+            background: linear-gradient($base-grey, $base-red);
+        }
+    }
+    .main-img{
         margin: 2% 0 2% 0;
     }
     p{text-align: center;
     margin: 2%;}
     .box{display: flex;
         justify-content: space-evenly;
-        width: 100%;
-        margin-top: 2%;
+        margin: 2% auto 2% auto;
     .table-info{
         flex-basis: 40%;
         font-size: 14px;
+        margin-left: 2%;
+        margin-right: 2%;
+        th:first-child{
+            font-weight: bold;
+        }
         th{text-align: center;
             white-space: nowrap;
+            padding: 10px;
         }
     }
     .assets{
         flex-basis: 40%;
+        align-self:center;
     }
 }
 }

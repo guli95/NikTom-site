@@ -1,0 +1,30 @@
+.gallery-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.gallery-wrapper img {
+  width: 40%;
+  margin-bottom: 2%;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 0;
+}
+
+.gallery-wrapper img:hover {
+  -webkit-filter: contrast(1.05);
+          filter: contrast(1.05);
+  cursor: pointer;
+  border-radius: 10%;
+  -webkit-filter: saturate(1.2);
+          filter: saturate(1.2);
+}
+/*# sourceMappingURL=lightbox.css.map */

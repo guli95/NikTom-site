@@ -1,34 +1,57 @@
 import React from "react";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
-import { NavLink } from "react-router-dom";
-import "../../css/product_site.css";
-import { Table } from "react-bootstrap";
 import ItemInfo from "../../components/ItemInfo";
+import LightBox from "../../components/Lightbox";
+import asset1 from "../../images/dji-5331597_1280.jpg";
+import asset2 from "../../images/slider_1.jpg";
+import asset3 from "../../images/slider_2.jpg";
+import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
-import { Carousel } from "bootstrap";
 
+const info = data.filter((item) => {
+  if (item.route === "/agregaty-uprawowe/euro-maszau") {
+    return item;
+  }
+});
 const EuroMaszAu = () => (
   <div>
     <Navigation />
     <div className="wrapper">
-      <img src={require("../../images/logo.jpg")} />
-      <h1>AGREGAT UPRAWOWO-PRZEDSIEWNY EURO-MASZ(AU)</h1>
-      <p>
-        AU - cztery rzędy zębówsprężystych 32x10 z płynną regulacją głębokości w
-        zakresie 0-12 cm - spulchniacze śladów z płynną regulacją głębokości i
-        szerokości oraz zabezpieczeniesprężynowe - wał przedni strunowy
-        ułożyskowany o średnicy 300mm - sekcja krusząco-ugniatająca– dwa rzędy
-        wałków fi 300 z możliwością regulacji docisku - składany hydraulicznie
-        (wersje powyżej 3 m) - automatyczna belka zaczepowa
-      </p>
+      <h1 className="product-title">{info[0].name}</h1>
+      <ul>
+        <li>
+          <span>
+            cztery rzędy zębówsprężystych 32x10 z płynną regulacją głębokości w
+            zakresie 0-12 cm
+          </span>
+        </li>
+        <li>
+          <span>
+            spulchniacze śladów z płynną regulacją głębokości i szerokości oraz
+            zabezpieczeniesprężynowe
+          </span>
+        </li>
+        <li>
+          <span>
+            sekcja krusząco-ugniatająca– dwa rzędy wałków fi 300 z możliwością
+            regulacji docisku
+          </span>
+        </li>
+        <li>
+          <span>składany hydraulicznie (wersje powyżej 3 m)</span>
+        </li>
+        <li>
+          <span>automatyczna belka zaczepowa</span>
+        </li>
+      </ul>
       <div className="box">
         <ItemInfo
           className="table-info"
           rawNumber={5}
           colNumber={9}
           raw1={[
-            "szerokość",
+            "Szerokość",
             "2,1",
             "2,7",
             "3,0",
@@ -112,166 +135,13 @@ const EuroMaszAu = () => (
             },
           ]}
         />
+        <PrizeBtn />
         <div className="assets">
-          <div
-            class="row"
-            id="gallery"
-            data-toggle="modal"
-            data-target="#exampleModal"
-          >
-            <div class="col-12 col-sm-6 col-lg-3">
-              <img
-                class="w-100"
-                src="https://images.unsplash.com/photo-1546853020-ca4909aef454?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-                alt="First slide"
-                data-target="#carouselExample"
-                data-slide-to="0"
-              />
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-              <img
-                class="w-100"
-                src="https://images.unsplash.com/photo-1546534505-d534e27ecb35?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-                alt="First slide"
-                data-target="#carouselExample"
-                data-slide-to="1"
-              />
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-              <img
-                class="w-100"
-                src="https://images.unsplash.com/photo-1546111380-cfca9a43dd85?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-                alt="First slide"
-                data-target="#carouselExample"
-                data-slide-to="2"
-              />
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3">
-              <img
-                class="w-100"
-                src="https://images.unsplash.com/photo-1547288242-f3d375fc7b5f?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-                alt="First slide"
-                data-target="#carouselExample"
-                data-slide-to="3"
-              />
-            </div>
-          </div>
+          <LightBox assets={[asset1, asset2, asset3]} />
         </div>
-      </div>
-      <div
-        class="modal fade"
-        id="exampleModal"
-        tabindex="-1"
-        role="dialog"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div
-                id="carouselExample"
-                class="carousel slide"
-                data-ride="carousel"
-              >
-                <ol class="carousel-indicators">
-                  <li
-                    data-target="#carouselExample"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li data-target="#carouselExample" data-slide-to="1"></li>
-                  <li data-target="#carouselExample" data-slide-to="2"></li>
-                  <li data-target="#carouselExample" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      class="d-block w-100"
-                      src="https://images.unsplash.com/photo-1546853020-ca4909aef454?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-                      alt="First slide"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="d-block w-100"
-                      src="https://images.unsplash.com/photo-1546534505-d534e27ecb35?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-                      alt="Second slide"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="d-block w-100"
-                      src="https://images.unsplash.com/photo-1546111380-cfca9a43dd85?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-                      alt="Third slide"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="d-block w-100"
-                      src="https://images.unsplash.com/photo-1547288242-f3d375fc7b5f?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-                      alt="Fourth slide"
-                    />
-                  </div>
-                </div>
-                <a
-                  class="carousel-control-prev"
-                  href="#carouselExample"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a
-                  class="carousel-control-next"
-                  href="#carouselExample"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="switch-wrap">
-        <label class="switch">
-          <input type="checkbox" id="styleSwitch" onclick="switchStyle();" />
-          <span class="slider round"></span>
-        </label>
-        <span class="switch-text">
-          Toggle between <em>Bootstrap defaults</em> and <em>custom styling</em>
-          .
-        </span>
       </div>
     </div>
+
     <Footer />
   </div>
 );

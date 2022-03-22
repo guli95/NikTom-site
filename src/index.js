@@ -5,11 +5,10 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./css/reset.css";
 import "./css/bgc.css";
+
 ReactDOM.render(
   <React.StrictMode>
-    <article className=" bgc-wrapper">
-      <App />
-    </article>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

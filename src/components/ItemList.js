@@ -1,6 +1,5 @@
 import React from "react";
 import ItemCard from "./ItemCard";
-import "../css/item_list.css";
 
 const ItemList = () => (
   <div className="item_list">
