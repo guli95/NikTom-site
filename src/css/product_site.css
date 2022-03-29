@@ -88,6 +88,27 @@ div.wrapper ul:hover {
   background: linear-gradient(#3c3c3c, #e30713);
 }
 
+div.wrapper ul h3 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+div.wrapper .long-list {
+  width: 40%;
+  padding: 3%;
+}
+
+div.wrapper .long-list h3 {
+  width: 100%;
+  float: left;
+}
+
+div.wrapper .long-list li {
+  width: 50%;
+  float: left;
+  padding-left: 5%;
+}
+
 div.wrapper .main-img {
   margin: 2% 0 2% 0;
 }

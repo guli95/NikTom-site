@@ -14,7 +14,6 @@ const info = data.filter((item) => {
     return item;
   }
 });
-console.log(info);
 const Armasz2 = () => (
   <div>
     <Navigation />

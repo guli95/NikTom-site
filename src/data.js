@@ -113,7 +113,7 @@ const data = [
   },
 
   {
-    name: `agregat talerzowy z pakiem "tytan" z wałem oponowym`,
+    name: `agregat talerzowy z hydropakiem "tytan" z wałem oponowym`,
     imgUrl: "images/dji-5331597_1280.jpg",
     searcherImg: "images/logo.jpg",
     route: "/agregaty-uprawowe-hydropak/talerz-tytan-z-walem",
@@ -127,7 +127,7 @@ const data = [
     id: 18,
   },
   {
-    name: `brona talerzowa "alfX Strumyk`,
+    name: `brona talerzowa "alfa V/X Strumyk`,
     imgUrl: "images/dji-5331597_1280.jpg",
     searcherImg: "images/logo.jpg",
     route: "/brony-talerzowe/alfa",
@@ -265,13 +265,6 @@ const data = [
     searcherImg: "images/logo.jpg",
     route: "/brony-talerzowe/kompaktowa-megatron-tolmet",
     id: 38,
-  },
-  {
-    name: `brona kompaktowa hydraulicznie składana "megatron" tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
-    route: "/brony-talerzowe/kompaktowa-megatron-tolmet",
-    id: 39,
   },
   {
     name: `brona kompaktowa hydraulicznie składana "megatron" XL tolmet`,

@@ -55,6 +55,20 @@ div.wrapper{
         &:hover{
             background: linear-gradient($base-grey, $base-red);
         }
+        h3{text-align: center;
+        margin-top: 2%;}
+       
+    }
+    .long-list{  
+        width: 40%;
+        padding: 3%;
+        h3{
+            width: 100%;
+            float: left;
+         }
+            li{width: 50%;
+                float: left;
+            padding-left: 5%;}
     }
     .main-img{
         margin: 2% 0 2% 0;

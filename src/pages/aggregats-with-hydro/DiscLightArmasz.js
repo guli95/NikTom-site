@@ -1,14 +1,111 @@
 import React from "react";
 import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
-import "../../css/product_site.css";
+import ItemInfo from "../../components/ItemInfo";
+import LightBox from "../../components/Lightbox";
+import asset1 from "../../images/dji-5331597_1280.jpg";
+import asset2 from "../../images/slider_1.jpg";
+import asset3 from "../../images/slider_2.jpg";
+import PrizeBtn from "../../components/PrizeBtn";
+import data from "../../data";
 
+const info = data.filter((item) => {
+  if (item.route === "/agregaty-uprawowe-hydropak/talerz-lekki-armasz") {
+    return item;
+  }
+});
 const DiscLightArmasz = () => (
   <div>
     <Navigation />
     <div className="wrapper">
-      <h1>Talerzowy lekki armasz</h1>
+      <h1 className="product-title">{info[0].name}</h1>
+      <div className="description">
+        <ul className="long-list">
+          <h3>Wyposażenie dodatkowe</h3>
+          <li>
+            <span>oświetlenie</span>
+          </li>
+          <li>
+            <span>piasty bezobsługowe typ skf</span>
+          </li>
+          <li>
+            <span>ramki obciążające</span>
+          </li>
+          <li>
+            <span>rozstaw 85cm(tzw. brona)</span>
+          </li>
+          <li>
+            <span>skrobaki do wału</span>
+          </li>
+          <li>
+            <span>talerze Ø 560</span>
+          </li>
+          <li>
+            <span>wał cewnikowy</span>
+          </li>
+          <li>
+            <span>wał daszkowy Ø 500</span>
+          </li>
+          <li>
+            <span>wał daszkowy Ø 600</span>
+          </li>
+          <li>
+            <span>wał Ø 500</span>
+          </li>
+          <li>
+            <span>wał Ø 600mm</span>
+          </li>
+          <li>
+            <span>wał packera</span>
+          </li>
+          <li>
+            <span>wał sprężynowy</span>
+          </li>
+          <li>
+            <span>wał ząbkowany</span>
+          </li>
+          <li>
+            <span>zgrzebło</span>
+          </li>
+          <li>
+            <span>zmiana koloru</span>
+          </li>
+        </ul>
+      </div>
+      <div className="box">
+        <ItemInfo
+          className="table-info"
+          rawNumber={3}
+          colNumber={8}
+          raw1={[
+            "Typ",
+            "ATL 115",
+            "ATL 118",
+            "ATL 120",
+            "ATL 122",
+            "ATL 125",
+            "ATL 127",
+            "ATL 130",
+          ]}
+          raw2={[
+            "Szerokość robocza [m]",
+            "1,5",
+            "1,8",
+            "2,0",
+            "2,2",
+            "2,5",
+            "2,7",
+            "3,0",
+          ]}
+          raw3={["Waga [kg]", "560", "630", "660", "730", "770", "890", "970"]}
+        />
+        <PrizeBtn />
+        <div className="assets">
+          <LightBox assets={[asset1, asset2, asset3]} />
+        </div>
+      </div>
     </div>
+
     <Footer />
   </div>
 );

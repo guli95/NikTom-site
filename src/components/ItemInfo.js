@@ -149,6 +149,87 @@ const ItemInfo = (props) => (
           ))}
         </tr>
       ) : null}
+      {props.optionsItem9 ? (
+        <tr>
+          {props.optionsItem9.map((data, key) => (
+            <th key={key} colSpan={data.len}>
+              {data.name}
+            </th>
+          ))}
+        </tr>
+      ) : null}
+      {props.optionsItem10 ? (
+        <tr>
+          {props.optionsItem10.map((data, key) => (
+            <th key={key} colSpan={data.len}>
+              {data.name}
+            </th>
+          ))}
+        </tr>
+      ) : null}
+      {props.optionsItem11 ? (
+        <tr>
+          {props.optionsItem11.map((data, key) => (
+            <th key={key} colSpan={data.len}>
+              {data.name}
+            </th>
+          ))}
+        </tr>
+      ) : null}
+      {props.optionsItem12 ? (
+        <tr>
+          {props.optionsItem12.map((data, key) => (
+            <th key={key} colSpan={data.len}>
+              {data.name}
+            </th>
+          ))}
+        </tr>
+      ) : null}
+      {props.optionsItem13 ? (
+        <tr>
+          {props.optionsItem13.map((data, key) => (
+            <th key={key} colSpan={data.len}>
+              {data.name}
+            </th>
+          ))}
+        </tr>
+      ) : null}
+      {props.optionsItem14 ? (
+        <tr>
+          {props.optionsItem14.map((data, key) => (
+            <th key={key} colSpan={data.len}>
+              {data.name}
+            </th>
+          ))}
+        </tr>
+      ) : null}
+      {props.optionsItem15 ? (
+        <tr>
+          {props.optionsItem15.map((data, key) => (
+            <th key={key} colSpan={data.len}>
+              {data.name}
+            </th>
+          ))}
+        </tr>
+      ) : null}
+      {props.optionsItem16 ? (
+        <tr>
+          {props.optionsItem16.map((data, key) => (
+            <th key={key} colSpan={data.len}>
+              {data.name}
+            </th>
+          ))}
+        </tr>
+      ) : null}
+      {props.optionsItem17 ? (
+        <tr>
+          {props.optionsItem17.map((data, key) => (
+            <th key={key} colSpan={data.len}>
+              {data.name}
+            </th>
+          ))}
+        </tr>
+      ) : null}
     </tbody>
   </Table>
 );

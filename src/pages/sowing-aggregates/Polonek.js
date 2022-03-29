@@ -14,7 +14,6 @@ const info = data.filter((item) => {
     return item;
   }
 });
-console.log(info);
 const Polonek = () => (
   <div>
     <Navigation />
