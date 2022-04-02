@@ -372,11 +372,18 @@ const data = [
     id: 54,
   },
   {
-    name: `Agregat bezorkowy "DELTA" "KRET" Armasz`,
+    name: `Agregat bezorkowy "DELTA" "KRET" Tolmet`,
     imgUrl: "images/dji-5331597_1280.jpg",
     searcherImg: "images/logo.jpg",
     route: "/agregaty-podrywkowo-orkowe/delta-kret-tolmet",
     id: 55,
+  },
+  {
+    name: `Agregat bezorkowy "DELTA" "KRET" Tolmet z wałem oponowym`,
+    imgUrl: "images/dji-5331597_1280.jpg",
+    searcherImg: "images/logo.jpg",
+    route: "/agregaty-podrywkowo-orkowe/delta-kret-tolmet-wal oponowy",
+    id: 550,
   },
   {
     name: `Agregat bezorkowy hydraulicznie składany półzawieszany "DELTA" Tolmet`,
@@ -400,7 +407,7 @@ const data = [
     id: 58,
   },
   {
-    name: `pług jednobelkowy 16 (PJ) zab kołkowe Euro-masz`,
+    name: `pług jednobelkowy (PJ) zab kołkowe Euro-masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
     searcherImg: "images/logo.jpg",
     route: "/plugi-jednobelkowe-zagonowe/16-pj-euro-masz",
@@ -411,10 +418,10 @@ const data = [
     imgUrl: "images/dji-5331597_1280.jpg",
     searcherImg: "images/logo.jpg",
     route: "/plugi-jednobelkowe-zagonowe/18-pj-euro-masz",
-    id: 60,
+    id: 600,
   },
   {
-    name: `pług jednobelkowy (PJL) zab resorowe Euro-masz`,
+    name: `pług jednobelkowy (PJR) zab resorowe Euro-masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
     searcherImg: "images/logo.jpg",
     route: "/plugi-jednobelkowe-zagonowe/pjl-euro-masz",

@@ -182,6 +182,7 @@ import BaleFork from "../pages/equipment/BaleFork";
 import HydraulicFork from "../pages/equipment/HydraulicFork";
 import Mixer from "../pages/equipment/Mixer";
 import AdapterEuro from "../pages/equipment/AdapterEuro";
+import DeltaTolmetTyre from "../pages/plowing-aggregats/DeltaTolmetTyre";
 
 const RoutesApp = () => {
   return (
@@ -428,6 +429,10 @@ const RoutesApp = () => {
           <Route
             path="/agregaty-podrywkowo-orkowe/delta-kret-tolmet"
             element={<DeltaTolmet />}
+          ></Route>
+          <Route
+            path="/agregaty-podrywkowo-orkowe/delta-kret-tolmet-wal oponowy"
+            element={<DeltaTolmetTyre />}
           ></Route>
           <Route
             path="/agregaty-podrywkowo-orkowe/delta-skladany-tolmet"

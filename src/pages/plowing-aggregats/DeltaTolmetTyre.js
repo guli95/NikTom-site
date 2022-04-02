@@ -10,11 +10,13 @@ import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
 const info = data.filter((item) => {
-  if (item.route === "/agregaty-podrywkowo-orkowe/delta-skladany-tolmet") {
+  if (
+    item.route === "/agregaty-podrywkowo-orkowe/delta-kret-tolmet-wal oponowy"
+  ) {
     return item;
   }
 });
-const FoldedDeltaTolmet = () => (
+const DeltaTolmetTyre = () => (
   <div>
     <Navigation />
     <div className="wrapper">
@@ -23,10 +25,10 @@ const FoldedDeltaTolmet = () => (
         <ul>
           <h3>Wyposażenie standardowe</h3>
           <li>
-            <span>Trzy rzędy gardzieli na zabezpieczeniu sprężynowym</span>
-          </li>
-          <li>
-            <span>hydrauliczna regulacja głębokości roboczej</span>
+            <span>
+              elementy robocze na zabezpieczeniu sprężynowym typu Kongskilde
+              (Delta) lub typu Horsch (Kret)
+            </span>
           </li>
           <li>
             <span>
@@ -35,26 +37,26 @@ const FoldedDeltaTolmet = () => (
             </span>
           </li>
           <li>
-            <span>niezależna regulacja talerzy niwelujących(Ø 460mm)</span>
+            <span>wzmacniany zaczep</span>
           </li>
           <li>
-            <span>talerze niwelujące na amortyzacji gumowej</span>
+            <span>wał oponowy (koło 26x12-12)</span>
+          </li>
+          <li>
+            <span>hydrauliczna regulacja głębokości roboczej</span>
           </li>
 
           <li>
-            <span>wał tandem daszkowy z profilu zamkniętego (Ø 600mm)</span>
+            <span>
+              ręczna niezależna regulacja talerzy niwelujących, amortyzacja
+              gumowa talerzy
+            </span>
           </li>
           <li>
-            <span>koło transportowe w środku</span>
+            <span>amortyzacja gumowa talerzy</span>
           </li>
           <li>
-            <span>koła podporowe podwójne</span>
-          </li>
-          <li>
-            <span>automatyczny zatrzask hydrauliczny</span>
-          </li>
-          <li>
-            <span>belka zaczepowa pływająca</span>
+            <span>składanie oraz regulacja kąta skrajnych talerzy</span>
           </li>
         </ul>
         <ul>
@@ -68,41 +70,34 @@ const FoldedDeltaTolmet = () => (
           <li>
             <span>elementy robocze napawane</span>
           </li>
-          <li>
-            <span>ucho zaczepowe 40mm</span>
-          </li>
-          <li>
-            <span>ucho zaczepowe 51mm </span>
-          </li>
-          <li>
-            <span>ucho zaczepowe K80</span>
-          </li>
-          <li>
-            <span>wał daszkowy z profila Ø 600mm</span>
-          </li>
-          <li>
-            <span>wał tandem ceownikowy Ø 520mm</span>
-          </li>
-          <li>
-            <span>wał tandem teownikowy Ø 600mm</span>
-          </li>
         </ul>
       </div>
       <div className="box">
         <ItemInfo
           className="table-info"
           rawNumber={7}
-          colNumber={4}
-          raw1={["Model", "DELTA 420", "DELTA 480", "DELTA 540"]}
-          raw2={["Szerokość [m]", "4,2", "4,8", "5,4"]}
-          raw3={["Liczba redlic", "14", "16", "18"]}
-          raw4={["Liczba talerzy", "12", "14", "16"]}
-          raw5={["Waga [kg]", "6000", "6500", "7000"]}
+          colNumber={5}
+          raw1={[
+            "Model",
+            "DELTA / KRET 240",
+            "DELTA / KRET 270",
+            "DELTA / KRET 300",
+            "DELTA / KRET 360",
+            "DELTA / KRET 420(hydr. składana)",
+            "DELTA / KRET 480(hydr. składana)",
+          ]}
+          raw2={["Szerokość [m]", "2,4", "2,7", "3,0", "3,6", "4,2", "4,8"]}
+          raw3={["Liczba redlic", "8", "9", "10", "12", "14", "16"]}
+          raw4={["Liczba talerzy", "6", "7", "8", "10", "12", "14"]}
+          raw5={["Waga [kg]", "1500", "1650", "1800", "2150", "2900", "3400"]}
           raw6={[
             "Zapotrzebowanie mocy [KM]",
-            "210 - 250",
-            "240 - 280",
-            "270 - 310",
+            "110 - 130",
+            "120 - 130",
+            "140 - 160",
+            "150 - 210",
+            "160 - 225",
+            "240 - 330",
           ]}
         />
         <PrizeBtn />
@@ -116,4 +111,4 @@ const FoldedDeltaTolmet = () => (
   </div>
 );
 
-export default FoldedDeltaTolmet;
+export default DeltaTolmetTyre;

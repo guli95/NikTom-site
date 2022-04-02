@@ -10,7 +10,7 @@ const PlowingAggregates = () => (
     <Navigation />
     <div className="item_list">
       {data.map((item) => {
-        if (item.id >= 52 && item.id <= 56) {
+        if ((item.id >= 52 && item.id <= 56) || item.id === 550) {
           return (
             <ItemCard
               img={require(`../../${item.imgUrl}`)}
