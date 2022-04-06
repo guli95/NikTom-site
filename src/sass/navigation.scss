@@ -1,51 +1,96 @@
 @import './variables.scss';
 
 .navi {
-    background-color: $base-grey;
+    background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     align-content: center;
-    justify-content: space-around;
+    
+    justify-content: stretch;
     position: fixed;
     width: 100%;
-    height: 11vh;
+    height: 15vh;
     top: 0;
-    border-bottom: 1.5px solid $base-red;
-    z-index: 2;
-    img{
-        height: 100%;
-    }
-
-    ul {
-        flex-basis: 45%;
-        list-style: none;
+    z-index: 5;
+    .navi-item{
+        flex-basis: 40%;
+  
         display: flex;
-        justify-content: flex-end;
-        align-content: center;
+        
         align-items: center;
-        height: 100%;
-
-        li {
+        ul {
+            flex-basis: 100%;
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            align-content: center;
+            align-items: center;
+            
+        li {display: flex;
             flex-basis: 30%;
             text-align: center;
             transition: .5s;
+            align-items: center;
+            align-self: center;
 
-            .active {
+    }}}
+    .navi-logo-container{
+        flex-basis: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+
+    img.navi-logo{
+       
+        width: 100%;
+        border-radius: 3%;
+        transition: .5s;
+        
+        &:hover{
+            border-radius: 10%;
+            cursor: pointer;
+            animation: shake .5s infinite linear;
+            @keyframes shake {
+                0%{transform: rotate(0);}
+                25%{transform: rotate(1deg)}
+                50%{transform: rotate(0);}
+                75%{transform: rotate(-1deg)}
+                100%{transform: rotate(0);}
+            }
+           
+        }
+        
+    }
+    }
+    .navi-searcher{
+        flex-basis: 40%;
+        display: flex;
+        justify-content: center;
+        margin-top: 4.5vh;
+    }
+
+ 
+
+       
+           
+
+            li.active {
                 color: white;
                 font-size: $text-xl+1;
 
             }
 
-            a {
+            li a {
                 padding: 7%;
                 white-space: nowrap;
-                color: #ddd;
+                color: white;
                 text-decoration: none;
                 text-transform: uppercase;
-                font-size: $text-xl;
+                font-size: $text-xl + 3;
                 font-weight: bold;
                 font-family: Arial, Helvetica, sans-serif;
                 transition: .5s;
-                text-shadow: 2px 2px black;
+                
 
 
                 &:hover {
@@ -58,6 +103,5 @@
 
 
         }
-    }
+    
 
-}

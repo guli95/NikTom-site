@@ -10,14 +10,13 @@
   -webkit-box-pack: stretch;
       -ms-flex-pack: stretch;
           justify-content: stretch;
-  margin-top: 3vh;
   width: 400px;
   overflow: auto;
 }
 
 .searcher input {
   text-align: center;
-  min-height: 50px;
+  min-height: 40px;
   display: block;
 }
 
