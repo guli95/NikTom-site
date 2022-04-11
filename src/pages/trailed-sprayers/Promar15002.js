@@ -10,11 +10,11 @@ import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
 const info = data.filter((item) => {
-  if (item.route === "/opryskiwacze-ciagane/2015-hx-promar") {
+  if (item.route === "/opryskiwacze-ciagane/promar-1500-18") {
     return item;
   }
 });
-const Promar2015HX = () => (
+const Promar15002 = () => (
   <div>
     <Navigation />
     <div className="wrapper">
@@ -24,22 +24,12 @@ const Promar2015HX = () => (
           <h3>Wyposażenie standardowe</h3>
           <li>
             <span>
-              Zbiornik 2000 litrów wykonany z żywicy z dodatkowym zbiornikiem na
-              czystą wodę do płukania o pojemności 100 litrów
+              Zbiornik 1500 litrów wykonany z żywicy z dodatkowym zbiornikiem na
+              czystą wodę do płukania o pojemności 70 litrów
             </span>
           </li>
           <li>
-            <span>
-              Belka polowa o szerokości 15 m Podnoszona i rozkładana
-              hydraulicznie niezależnie (jednostronnie) z możliwością rozłożenia
-              1/4 belki. Sterowanie belką odbywa się dzięki dźwigniom
-              przeniesionym do kabiny ciągnika a połączonych z rozdzielaczem
-              zamontowanym na opryskiwaczu. Tylko jedna para przewodów
-              zasilających rozdzielacz hydrauliczny
-            </span>
-          </li>
-          <li>
-            <span>Układ cieczowy belki w rurkach kwasoodpornych</span>
+            <span>Belka polowa o szerokości 15 podnoszona hydraulicznie</span>
           </li>
           <li>
             <span>
@@ -53,7 +43,7 @@ const Promar2015HX = () => (
           </li>
           <li>
             <span>
-              Pompa włoskiej produkcji UDOR o wydajności 170 l/min zapewnia
+              Pompa włoskiej produkcji UDOR o wydajności 140 l/min zapewnia
               odpowiednią wydajność
             </span>
           </li>
@@ -73,20 +63,13 @@ const Promar2015HX = () => (
             <span>Rozwadniacz środków chemicznych w sicie wlewowym</span>
           </li>
           <li>
-            <span>Koła 9,5x32</span>
+            <span>Koła 9,5x24</span>
           </li>
           <li>
-            <span>
-              Rozdzielacz stałociśnieniowy włoskiej firmy ARAG (5 sekcji
-              roboczych) zapewniający stałe ciśnienie bez względu na zmianę
-              ilości pracujących sekcji
-            </span>
+            <span>Manualny rozdzielacz sześciosekcyjny </span>
           </li>
           <li>
             <span>Wał przegubowo-teleskopowy (WOM)</span>
-          </li>
-          <li>
-            <span>Oświetlenie drogowe</span>
           </li>
           <li>
             <span>Dodatkowy zbiorniczek (10l) na czystą wodę do mycia rąk</span>
@@ -114,11 +97,13 @@ const Promar2015HX = () => (
             <span>Siłownik stabilizacji belki</span>
           </li>
           <li>
-            <span>Koła 9,5x36 lub 11,2x36(radialne)</span>
+            <span>Koła 9,5x32</span>
           </li>
           <li>
             <span>
-              Elektryczne sterowanie rozkładaniem belki (elektrozawory)
+              Rozdzielacz stałociśnieniowy włoskiej firmy ARAG (5 sekcji
+              roboczych) zapewniający stałe ciśnienie bez względu na zmianę
+              ilości pracujących sekcji
             </span>
           </li>
           <li>
@@ -150,6 +135,9 @@ const Promar2015HX = () => (
           <li>
             <span>Znacznik pianowy</span>
           </li>
+          <li>
+            <span>Oświetlenie drogowe</span>
+          </li>
         </ul>
       </div>
       <div className="box">
@@ -157,15 +145,15 @@ const Promar2015HX = () => (
           className="table-info"
           rawNumber={9}
           colNumber={2}
-          raw1={["Pojemność zbiornika (l) ", "2000"]}
+          raw1={["Pojemność zbiornika (l) ", "1500"]}
           raw2={["Typ zbiornika", "żywiczny"]}
-          raw3={["Szerokość belki [m]", "15"]}
+          raw3={["Szerokość belki [m]", "18"]}
           raw4={["Liczba sekcji roboczych [szt]", "5"]}
           raw5={["Głowice", "pojedyncze z zaworkiem przeciwkroplowym"]}
-          raw6={["Rozpylacze", "szczelinowe ARAG"]}
+          raw6={["Rozpylacze", "szczelinowe Agroplast"]}
           raw7={["Pompa", "UDOR 170 l/min"]}
-          raw8={["Zawór", "manualny stało ciśnieniowy"]}
-          raw9={["Waga [kg]", "920"]}
+          raw8={["Zawór", "manualny"]}
+          raw9={["Waga [kg]", "820"]}
         />
         <PrizeBtn />
         <div className="assets">
@@ -178,4 +166,4 @@ const Promar2015HX = () => (
   </div>
 );
 
-export default Promar2015HX;
+export default Promar15002;

@@ -10,11 +10,11 @@ import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
 const info = data.filter((item) => {
-  if (item.route === "/opryskiwacze-ciagane/bruno-x-1000-tolmet") {
+  if (item.route === "/opryskiwacze-ciagane/bruno-2500-tolmet") {
     return item;
   }
 });
-const BrunoX1000Tolmet = () => (
+const Bruno2500Tolmet = () => (
   <div>
     <Navigation />
     <div className="wrapper">
@@ -23,7 +23,7 @@ const BrunoX1000Tolmet = () => (
         <ul className="long-list">
           <h3>Wyposażenie standardowe</h3>
           <li>
-            <span>typ zbiornika PROTON 1000</span>
+            <span>typ zbiornika PROTON 2500</span>
           </li>
           <li>
             <span>zbiornik do mycia rąk</span>
@@ -32,10 +32,10 @@ const BrunoX1000Tolmet = () => (
             <span>zbiornik do mycia układu</span>
           </li>
           <li>
-            <span>hydrauliczna stabilizacja belki</span>
+            <span>stabilizacja belki</span>
           </li>
           <li>
-            <span>hydraulicznie rozkładana belka</span>
+            <span>ręcznie rozkładana belka</span>
           </li>
           <li>
             <span>potrójna oprawa rozpylacza</span>
@@ -47,13 +47,10 @@ const BrunoX1000Tolmet = () => (
             <span>rozdzielacz Fermo 5 sekcyjny</span>
           </li>
           <li>
-            <span>CONTROL PANEL 1 + HYDRO - PANEL</span>
+            <span>dwie pompy TOLVERI PU-3/140 o wydajności 140 l/min</span>
           </li>
           <li>
-            <span>pompa TOLVERI PU-3/140 wydajność 140 l/min</span>
-          </li>
-          <li>
-            <span>koła 9,5 x 24</span>
+            <span>koła 9,5 x 32</span>
           </li>
           <li>
             <span>filtr liniowy</span>
@@ -70,7 +67,12 @@ const BrunoX1000Tolmet = () => (
         </ul>
         <ul>
           <h3>Wyposażenie opcjonalne</h3>
-
+          <li>
+            <span>stabilizacja belki hydrauliczna</span>
+          </li>
+          <li>
+            <span>control panel 1</span>
+          </li>
           <li>
             <span>control panel 2</span>
           </li>
@@ -78,14 +80,12 @@ const BrunoX1000Tolmet = () => (
             <span>control panel 7</span>
           </li>
           <li>
-            <span>komputer ALFA 200</span>
+            <span>komputer ALFA 100</span>
           </li>
           <li>
             <span>oświetlenie robocze</span>
           </li>
-          <li>
-            <span>koła 9,5 x 32</span>
-          </li>
+
           <li>
             <span>koła 9,5 x 36</span>
           </li>
@@ -104,14 +104,35 @@ const BrunoX1000Tolmet = () => (
         <ItemInfo
           className="table-info"
           rawNumber={7}
-          colNumber={4}
-          raw1={["Model", "Bruno X 1012", "Bruno X 1015", "Bruno X 1018"]}
-          raw2={["Pojemność zbiornika [l]", "1000", "1000", "1000"]}
-          raw3={["Szerokość lancy [m]", "12", "15", "18"]}
-          raw4={["Waga opryskiwacza bez cieczy[kg]", "1400", "1450", "1550"]}
-          raw5={["Długość [mm]", "3000", "3000", "3000"]}
-          raw6={["Szerokość [mm]", "2850", "2850", "2850"]}
-          raw7={["Wysokość [mm]", "2700", "2700", "2700"]}
+          colNumber={6}
+          raw1={[
+            "Model",
+            "Bruno 2512",
+            "Bruno 2514",
+            "Bruno 2515",
+            "Bruno 2516",
+            "Bruno 2518",
+          ]}
+          raw2={[
+            "Pojemność zbiornika [l]",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+            "2500",
+          ]}
+          raw3={["Szerokość lancy [m]", "12", "14", "15", "16", "18"]}
+          raw4={[
+            "Waga opryskiwacza bez cieczy[kg]",
+            "2200",
+            "2250",
+            "2250",
+            "2280",
+            "2400",
+          ]}
+          raw5={["Długość [mm]", "4000", "4000", "4000", "4000", "4000"]}
+          raw6={["Szerokość [mm]", "2850", "2850", "2850", "2850", "2850"]}
+          raw7={["Wysokość [mm]", "2500", "2500", "2500", "2500", "2500"]}
         />
         <PrizeBtn />
         <div className="assets">
@@ -124,4 +145,4 @@ const BrunoX1000Tolmet = () => (
   </div>
 );
 
-export default BrunoX1000Tolmet;
+export default Bruno2500Tolmet;

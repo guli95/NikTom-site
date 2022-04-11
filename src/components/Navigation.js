@@ -27,7 +27,7 @@ const Navigation = () => (
     <div className="navi-logo-container">
       <NavLink to="/">
         <img
-          src={require("../images/logo.jpg")}
+          src={require("../images/Logotyp.png")}
           alt="logo firmy"
           className="navi-logo"
         />

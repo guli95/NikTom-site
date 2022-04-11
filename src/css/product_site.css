@@ -142,8 +142,8 @@ div.wrapper .box .table-info th:first-child {
 
 div.wrapper .box .table-info th {
   text-align: center;
-  white-space: nowrap;
   padding: 10px;
+  min-width: 90px;
 }
 
 div.wrapper .box .assets {
@@ -152,5 +152,26 @@ div.wrapper .box .assets {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+div.wrapper .box-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 2% auto 2% auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.wrapper .box-photo .assets {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 2%;
 }
 /*# sourceMappingURL=product_site.css.map */

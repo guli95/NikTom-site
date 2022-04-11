@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 .navi {
   background-color: rgba(0, 0, 0, 0.4);
   display: -webkit-box;
@@ -174,7 +175,7 @@ div.contact-site-wrapper {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  margin-top: 7%;
+  margin-top: 9%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -ms-flex-line-pack: stretch;
@@ -425,45 +426,203 @@ div.contact-site-wrapper .login-box a span:nth-child(4) {
   }
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  top: 93%;
-  right: 0;
-  left: 0;
-  background-color: #3c3c3c;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  border-top: 1.5px solid #e30713;
+* {
+  font-family: Open Sans;
 }
 
-.footer .footer-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 8px;
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
-.footer .footer-item img {
-  margin-right: 10px;
+.footer-distributed {
+  background: #666;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
 }
 
-.footer .footer-item a {
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
 }
 
-.footer .footer-item a:hover {
+/* Footer left */
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
   color: #e30713;
 }
 
-.footer .footer-item a.number {
-  margin-right: 5px;
+/* Footer links */
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer-distributed .footer-links a:hover {
+  color: #e30713;
+}
+
+.footer-distributed .footer-company-name {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center .phones {
+  margin: 1% 0 1% 0;
+  font-size: 18px;
+}
+
+.footer-distributed .footer-center p:hover, .footer-distributed .footer-center span:hover {
+  color: #e30713;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center p a {
+  color: #e30713;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer-distributed .footer-center p a:hover {
+  color: wheat;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-right img.face-icon {
+  width: 20%;
+  margin: 15% auto;
+  text-align: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer-distributed .footer-right img.face-icon:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer-distributed .footer-right p {
+  text-align: center;
+  width: 100%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer-distributed .footer-right p:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
 }
 
 .item_card {
@@ -515,7 +674,7 @@ div.contact-site-wrapper .login-box a span:nth-child(4) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 100px;
+  margin-top: 16vh;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -845,8 +1004,8 @@ div.wrapper .box .table-info th:first-child {
 
 div.wrapper .box .table-info th {
   text-align: center;
-  white-space: nowrap;
   padding: 10px;
+  min-width: 90px;
 }
 
 div.wrapper .box .assets {
@@ -855,6 +1014,27 @@ div.wrapper .box .assets {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+div.wrapper .box-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 2% auto 2% auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.wrapper .box-photo .assets {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 2%;
 }
 
 /*
@@ -932,6 +1112,8 @@ p, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   min-height: 40px;
   display: block;
+  border-radius: 2%;
+  border-color: transparent;
 }
 
 .searcher .box {

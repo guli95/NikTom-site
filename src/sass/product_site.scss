@@ -87,8 +87,9 @@ div.wrapper{
             font-weight: bold;
         }
         th{text-align: center;
-            white-space: nowrap;
+            // white-space: nowrap;
             padding: 10px;
+            min-width: 90px;
         }
     }
     .assets{
@@ -96,4 +97,13 @@ div.wrapper{
         align-self:center;
     }
 }
+.box-photo{display: flex;
+    justify-content: space-evenly;
+    margin: 2% auto 2% auto;
+    flex-wrap: wrap;
+    .assets{
+        flex-basis: 90%;
+        align-self:center;
+        margin-top: 2%;
+    }}
 }
