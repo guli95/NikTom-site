@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NikTom-site/static/css/main.76a5744e.css",
-    "main.js": "/NikTom-site/static/js/main.db353ca5.js",
+    "main.css": "/NikTom-site/static/css/main.cd3868cc.css",
+    "main.js": "/NikTom-site/static/js/main.6fcc8f81.js",
     "static/js/787.71d75aa7.chunk.js": "/NikTom-site/static/js/787.71d75aa7.chunk.js",
     "static/media/slider_4.xcf": "/NikTom-site/static/media/slider_4.7f2e9a359c3f35320070.xcf",
     "static/media/slider_4.jpg": "/NikTom-site/static/media/slider_4.9741069c8bbeaf11d60d.jpg",
@@ -36,7 +36,6 @@
     "static/media/app.css.map": "/NikTom-site/static/media/app.css.08eb27012a960a8ba135.map",
     "static/media/searcher.css.map": "/NikTom-site/static/media/searcher.css.f225cec618164c691963.map",
     "static/media/default-skin.svg": "/NikTom-site/static/media/default-skin.f64c3af3d0d25b9e4e00.svg",
-    "static/media/navi.css.map": "/NikTom-site/static/media/navi.css.db39084b33c448bf18b1.map",
     "static/media/item_card.css.map": "/NikTom-site/static/media/item_card.css.06d7ba282c2740539064.map",
     "static/media/item_list.css.map": "/NikTom-site/static/media/item_list.css.6a4b79e1bb885d39f1a0.map",
     "static/media/reset.css.map": "/NikTom-site/static/media/reset.css.6a3b600a8dcccedaf4ee.map",
@@ -45,12 +44,12 @@
     "static/media/item_page.css.map": "/NikTom-site/static/media/item_page.css.835a71ce7269d4c52cda.map",
     "static/media/variables.css.map": "/NikTom-site/static/media/variables.css.5ee1819b7a65d6922448.map",
     "static/media/bgc.css.map": "/NikTom-site/static/media/bgc.css.e7275ce191066cc5b7ea.map",
-    "main.76a5744e.css.map": "/NikTom-site/static/css/main.76a5744e.css.map",
-    "main.db353ca5.js.map": "/NikTom-site/static/js/main.db353ca5.js.map",
+    "main.cd3868cc.css.map": "/NikTom-site/static/css/main.cd3868cc.css.map",
+    "main.6fcc8f81.js.map": "/NikTom-site/static/js/main.6fcc8f81.js.map",
     "787.71d75aa7.chunk.js.map": "/NikTom-site/static/js/787.71d75aa7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76a5744e.css",
-    "static/js/main.db353ca5.js"
+    "static/css/main.cd3868cc.css",
+    "static/js/main.6fcc8f81.js"
   ]
 }
