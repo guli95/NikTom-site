@@ -5,9 +5,183 @@
   margin: 0 auto 2vh auto;
 }
 
+@media (max-width: 1500px) {
+  .slider {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 1280px) {
+  .slider {
+    height: 45vh;
+  }
+}
+
+@media (max-width: 1100px) {
+  .slider {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 920px) {
+  .slider {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider {
+    height: 28vh;
+  }
+}
+
+@media (max-width: 620px) {
+  .slider {
+    height: 22vh;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 480px) {
+  .slider {
+    height: 32vw;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 400px) {
+  .slider {
+    height: 35vw;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 1200px) and (max-width: 900px) {
+  .slider {
+    height: 27vh;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 1200px) and (max-width: 600px) {
+  .slider {
+    height: 25vh;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 1000px) and (max-width: 600px) {
+  .slider {
+    height: 19vh;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 800px) and (max-width: 600px) {
+  .slider {
+    height: 22vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider .carousel .slider-btn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 680px), (max-height: 350px) {
+  .slider .carousel .slider-btn {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px), (max-height: 250px) {
+  .slider .carousel .slider-btn {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 340px), (max-height: 200px) {
+  .slider .carousel .slider-btn {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 310px), (max-height: 100px) {
+  .slider .carousel .slider-btn {
+    font-size: 7px;
+  }
+}
+
 .slider .carousel .carousel-inner {
-  height: 60vh;
+  height: 65vh;
   width: 100%;
+}
+
+@media (max-width: 1500px) {
+  .slider .carousel .carousel-inner {
+    height: 55vh;
+  }
+}
+
+@media (max-width: 1280px) {
+  .slider .carousel .carousel-inner {
+    height: 45vh;
+  }
+}
+
+@media (max-width: 1100px) {
+  .slider .carousel .carousel-inner {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 920px) {
+  .slider .carousel .carousel-inner {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider .carousel .carousel-inner {
+    height: 28vh;
+  }
+}
+
+@media (max-width: 620px) {
+  .slider .carousel .carousel-inner {
+    height: 22vh;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 480px) and (max-width: 600px) {
+  .slider .carousel .carousel-inner {
+    height: 32vw;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 400px) {
+  .slider .carousel .carousel-inner {
+    height: 35vw;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 1200px) and (max-width: 900px) {
+  .slider .carousel .carousel-inner {
+    height: 27vh;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 1200px) and (max-width: 600px) {
+  .slider .carousel .carousel-inner {
+    height: 25vh;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 1000px) and (max-width: 600px) {
+  .slider .carousel .carousel-inner {
+    height: 19vh;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 800px) and (max-width: 600px) {
+  .slider .carousel .carousel-inner {
+    height: 22vh;
+  }
 }
 
 .slider .carousel .carousel-item {

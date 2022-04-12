@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
 import Contact from "../pages/Contact";
 import Offer from "../pages/Offer";
@@ -35,7 +36,7 @@ import HeavyRotos from "../pages/disc-harrows/HeavyRotos";
 import EuroMaszBt from "../pages/disc-harrows/EuroMaszBt";
 import WiderEuroMasz from "../pages/disc-harrows/WiderEuroMasz";
 import HalfSuspended from "../pages/disc-harrows/HalfSuspended";
-import HeavyHydraulicBTP from "../pages/disc-harrows/HeavyHydraulicBTCH";
+
 import HeavyHydraulicBTCH from "../pages/disc-harrows/HeavyHydraulicBTCH";
 import BTCSEuroMasz from "../pages/disc-harrows/BTCSEuroMasz";
 import HydrauliclyFoldedArmasz from "../pages/disc-harrows/HydrauliclyFoldedArmasz.js";
@@ -186,7 +187,7 @@ import DeltaTolmetTyre from "../pages/plowing-aggregats/DeltaTolmetTyre";
 
 const RoutesApp = () => {
   return (
-    <Router>
+    <HashRouter>
       <ScrollToTop>
         <Routes>
           <Route path="/kontakt" element={<Contact />}></Route>
@@ -548,17 +549,17 @@ const RoutesApp = () => {
           {
             //siewniki zbożowe
           }
-          <Route path="/siewniki-zbolowe" element={<GrainSeeders />}></Route>
+          <Route path="/siewniki-zbozowe" element={<GrainSeeders />}></Route>
           <Route
-            path="/siewniki-zbolowe/sr-euro-masz"
+            path="/siewniki-zbozowe/sr-euro-masz"
             element={<SREuroMasz />}
           ></Route>
           <Route
-            path="/siewniki-zbolowe/srt-euro-masz"
+            path="/siewniki-zbozowe/srt-euro-masz"
             element={<SRTEuroMasz />}
           ></Route>
           <Route
-            path="/siewniki-zbolowe/nadbudowany-euro-masz"
+            path="/siewniki-zbozowe/nadbudowany-euro-masz"
             element={<BuiltUpEuroMasz />}
           ></Route>
           {
@@ -635,11 +636,12 @@ const RoutesApp = () => {
           ></Route>
           {
             //opryskiwacze ciagane 1
+            //   <Route
+            //   path="/opryskiwacze-zawieszane"
+            //   element={<MountedSprayers />}
+            // ></Route>
           }
-          <Route
-            path="/opryskiwacze-zawieszane"
-            element={<MountedSprayers />}
-          ></Route>
+
           <Route
             path="/opryskiwacze-ciagane/bruno-1000-tolmet"
             element={<Bruno1000Tolmet />}
@@ -907,7 +909,7 @@ const RoutesApp = () => {
           ></Route>
         </Routes>
       </ScrollToTop>
-    </Router>
+    </HashRouter>
   );
 };
 

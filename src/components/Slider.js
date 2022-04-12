@@ -16,7 +16,11 @@ const Slider = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <Button variant="danger" onClick={executeScroll}>
+            <Button
+              variant="danger"
+              onClick={executeScroll}
+              className="slider-btn"
+            >
               Zapoznaj się z naszą ofertą
             </Button>
           </Carousel.Caption>
@@ -28,7 +32,11 @@ const Slider = () => {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <Button variant="danger" onClick={executeScroll}>
+            <Button
+              variant="danger"
+              onClick={executeScroll}
+              className="slider-btn"
+            >
               Zapoznaj się z naszą ofertą
             </Button>
           </Carousel.Caption>
@@ -40,7 +48,11 @@ const Slider = () => {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <Button variant="danger" onClick={executeScroll}>
+            <Button
+              variant="danger"
+              onClick={executeScroll}
+              className="slider-btn"
+            >
               Zapoznaj się z naszą ofertą
             </Button>
           </Carousel.Caption>

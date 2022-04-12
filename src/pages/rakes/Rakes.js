@@ -4,29 +4,27 @@ import ItemCard from "../../components/ItemCard";
 import Footer from "../../components/Footer";
 import "../../css/item_card.css";
 import "../../css/item_list.css";
+import data from "../../data";
 
 const Rakes = () => (
   <div>
     <Navigation />
     <div className="item_list">
-      <ItemCard
-        img={require("../../images/dji-5331597_1280.jpg")}
-        alt="zgrabiarka karuzelowa"
-        name={`zgrabiarka karuzelowa Euro-masz`}
-        link="/zgrabiarki-karuzelowe/euro-masz"
-      />
-      <ItemCard
-        img={require("../../images/dji-5331597_1280.jpg")}
-        alt="zgrabiarka karuzelowa"
-        name={`zgrabiarka karuzelowa promar`}
-        link="/zgrabiarki-karuzelowe/promar"
-      />
-      <ItemCard
-        img={require("../../images/dji-5331597_1280.jpg")}
-        alt="zgrabiarka karuzelowa"
-        name={`zgrabiarka karuzelowa Armasz`}
-        link="/zgrabiarki-karuzelowe/armasz"
-      />
+      {data.map((item) => {
+        // const url= item.url.pop()
+        if (item.id >= 84 && item.id <= 85) {
+          return (
+            <ItemCard
+              // img="../../images/dji-5331597_1280.jpg"
+              img={require(`../../${item.imgUrl}`)}
+              alt={item.name}
+              name={item.name}
+              link={item.route}
+              key={item.id}
+            />
+          );
+        }
+      })}
     </div>
 
     <Footer />

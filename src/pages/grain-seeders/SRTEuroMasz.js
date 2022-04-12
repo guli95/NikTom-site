@@ -10,7 +10,7 @@ import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
 const info = data.filter((item) => {
-  if (item.route === "/siewniki-zbolowe/srt-euro-masz") {
+  if (item.route === "/siewniki-zbozowe/srt-euro-masz") {
     return item;
   }
 });

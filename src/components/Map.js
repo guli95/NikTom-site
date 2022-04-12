@@ -13,7 +13,7 @@ export class MapContainer extends Component {
       //     </div>
       //   </InfoWindow>
       // </Map>
-      <div>Mapa</div>
+      <div></div>
     );
   }
 }

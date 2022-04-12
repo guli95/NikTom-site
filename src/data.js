@@ -1,4 +1,5 @@
 const data = [
+  //agregat uprawowe
   {
     name: "agregat uprawowo-przedsiewny Euro-Masz(AU)",
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -27,6 +28,8 @@ const data = [
     route: "/agregaty-uprawowe/neon",
     id: 4,
   },
+
+  //agregaty-uprawowo-siewne
   {
     name: `agregat uprawowo-siewny (AS) z hydropakiem Euro-Masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -76,6 +79,8 @@ const data = [
     route: "/agregaty-uprawowo-siewne/polon",
     id: 11,
   },
+
+  //agregaty uprawowe z hydropakiem
   {
     name: `agregat talerzowy z hydropakiem Euro-Masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -126,6 +131,8 @@ const data = [
     route: "/agregaty-uprawowe-hydropak/talerz-tiger",
     id: 18,
   },
+
+  //briny talerzowe
   {
     name: `brona talerzowa "alfa V/X Strumyk`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -287,6 +294,8 @@ const data = [
     route: "/brony-talerzowe/aktywna-wir-tolmet",
     id: 42,
   },
+
+  //agregaty podrywkowe
   {
     name: `Agregat podrywkowy "gruber" zab zrywalne Euro-masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -350,6 +359,8 @@ const data = [
     route: "/agregaty-podrywkowe/kultywator-tolmet",
     id: 51,
   },
+
+  //agregaty podrywkowo - orkowe
   {
     name: `Agregat podrywkowo-orkowy/bezorkowy Euro-masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -392,6 +403,8 @@ const data = [
     route: "/agregaty-podrywkowo-orkowe/delta-skladany-tolmet",
     id: 56,
   },
+
+  //pługi jednobelkowe
   {
     name: `pług zagonowy(PZ) zab kołkowe Euro-masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -427,6 +440,8 @@ const data = [
     route: "/plugi-jednobelkowe-zagonowe/pjl-euro-masz",
     id: 61,
   },
+
+  //pługi obrotowe
   {
     name: `pług obrotowy "atlas" 16 typ lekki rama podwojna zab kolkowe Euro-Masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -476,6 +491,8 @@ const data = [
     route: "/plugi-obrotowe/dlutowy-tolmet",
     id: 68,
   },
+
+  //głębosze
   {
     name: `Głebosz zab zrywalne Euro-masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -546,6 +563,8 @@ const data = [
     route: "/glebosze/michael-zrywalne-tolmet",
     id: 77,
   },
+
+  //wały posiewne
   {
     name: `Wał posiewny zawieszany Euro-masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -567,27 +586,31 @@ const data = [
     route: "/waly-posiewne/ciagany-hydrauliczny-euro-masz",
     id: 80,
   },
+
+  //siewniki zbożowe
   {
-    name: `siewnik zbołowy stopkowy (SR) Euro-masz`,
+    name: `siewnik zbożowy stopkowy (SR) Euro-masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
     searcherImg: "images/logo.jpg",
-    route: "/siewniki-zbolowe/sr-euro-masz",
+    route: "/siewniki-zbozowe/sr-euro-masz",
     id: 81,
   },
   {
-    name: `siewnik zbołowy dwutalerzowy (SRT) Euro-masz`,
+    name: `siewnik zbożowy dwutalerzowy (SRT) Euro-masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
     searcherImg: "images/logo.jpg",
-    route: "/siewniki-zbolowe/srt-euro-masz",
+    route: "/siewniki-zbozowe/srt-euro-masz",
     id: 82,
   },
   {
-    name: `siewnik zbołowy nadbudowany Euro-masz`,
+    name: `siewnik zbożowy nadbudowany Euro-masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
     searcherImg: "images/logo.jpg",
-    route: "/siewniki-zbolowe/nadbudowany-euro-masz",
+    route: "/siewniki-zbozowe/nadbudowany-euro-masz",
     id: 83,
   },
+
+  //zgrabiarki karuzelowe
   {
     name: `zgrabiarka karuzelowa Euro-masz`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -602,13 +625,8 @@ const data = [
     route: "/zgrabiarki-karuzelowe/promar",
     id: 85,
   },
-  // {
-  //   name: `zgrabiarka karuzelowa Armasz`,
-  //   imgUrl: "images/dji-5331597_1280.jpg",
-  //   searcherImg: "images/logo.jpg",
-  //   route: "/zgrabiarki-karuzelowe/armasz",
-  //   id: 86,
-  // },
+
+  //rozsiewacze
   {
     name: `rozsiewacz dwutarczowy "tytan" malowany Strumyk`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -700,6 +718,8 @@ const data = [
     route: "/rozsiewacze/wapnia-soli-i-piasku-langren",
     id: 98,
   },
+
+  //opryskiwacze - ciagane
   {
     name: `opryskiwacz zawieszany Bruno 1000 Tolmet`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -973,6 +993,8 @@ const data = [
     route: "/opryskiwacze-ciagane/1500-oktopus-promar",
     id: 137,
   },
+
+  //zbiorniki paliwa
   {
     name: `zbiornik paliwa dwupłaszczowy ON JFC FuelStation 1600/1300l`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -994,6 +1016,8 @@ const data = [
     route: "/zbiorniki-paliwa/dwuplaszczowy-5000",
     id: 140,
   },
+
+  //włóki polowe
   {
     name: `włóka łąkowo-polowa ATMP`,
     imgUrl: "images/dji-5331597_1280.jpg",
@@ -1001,6 +1025,8 @@ const data = [
     route: "/wloki-polowe/atmp",
     id: 141,
   },
+
+  //osprzęt
   {
     name: `chwytaki do bel ATMP`,
     imgUrl: "images/dji-5331597_1280.jpg",

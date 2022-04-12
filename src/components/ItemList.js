@@ -2,7 +2,7 @@ import React from "react";
 import ItemCard from "./ItemCard";
 
 const ItemList = () => (
-  <div className="item_list">
+  <div className="item_list" id="offer">
     <ItemCard
       img={require("../images/dji-5331597_1280.jpg")}
       alt="agregat uprawowy"
@@ -65,9 +65,9 @@ const ItemList = () => (
     />
     <ItemCard
       img={require("../images/dji-5331597_1280.jpg")}
-      alt="siewnik zbołowy"
-      name="Siewniki Zbołowe"
-      link="siewniki-zbolowe"
+      alt="siewnik zbożowy"
+      name="Siewniki Zbożowe"
+      link="siewniki-zbozowe"
     />
     <ItemCard
       img={require("../images/dji-5331597_1280.jpg")}
