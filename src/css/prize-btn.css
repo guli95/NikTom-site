@@ -6,6 +6,19 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+}
+
+@media (max-width: 1100px) {
+  .btn-wrapper {
+    -ms-flex-preferred-size: 90%;
+        flex-basis: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 5% 0;
+  }
 }
 
 .btn-wrapper .prize-btn {
@@ -31,6 +44,13 @@
           box-sizing: content-box;
 }
 
+@media (max-width: 1400px) {
+  .btn-wrapper .prize-btn {
+    width: 150px;
+    font-size: 15px;
+  }
+}
+
 .btn-wrapper button::before {
   content: '';
   border-radius: 1000px;
@@ -45,6 +65,13 @@
   opacity: 0;
   -webkit-transition: all .3s ease-in-out 0s;
   transition: all .3s ease-in-out 0s;
+}
+
+@media (max-width: 1400px) {
+  .btn-wrapper button::before {
+    min-width: calc(120px + 12px);
+    min-height: calc(60px + 12px);
+  }
 }
 
 .btn-wrapper .button:hover, .btn-wrapper .button:focus {
@@ -71,6 +98,13 @@
           transform: translate(-50%, -50%);
   -webkit-animation: ring 1.5s infinite;
           animation: ring 1.5s infinite;
+}
+
+@media (max-height: 1280px) {
+  .btn-wrapper button::after {
+    -webkit-animation: mring 2s infinite;
+            animation: mring 2s infinite;
+  }
 }
 
 .btn-wrapper button:hover::after, .btn-wrapper button:focus::after {
@@ -101,6 +135,32 @@
   100% {
     width: 200px;
     height: 200px;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes mring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+  }
+}
+
+@keyframes mring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 150px;
+    height: 150px;
     opacity: 0;
   }
 }

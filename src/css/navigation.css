@@ -255,23 +255,17 @@
   }
 }
 
-.navi li.active {
-  color: white;
-  font-size: 21px;
-}
-
 .navi li a {
   padding: 7%;
   white-space: nowrap;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 23px;
+  font-size: 32px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-transition: .5s;
   transition: .5s;
-  font-size: 28px;
 }
 
 @media (max-width: 1400px) {
