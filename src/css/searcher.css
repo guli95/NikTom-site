@@ -1,0 +1,117 @@
+.searcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 50vh;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  width: 400px;
+  overflow: auto;
+}
+
+@media (max-width: 1024px) {
+  .searcher {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .searcher {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .searcher {
+    width: 320px;
+  }
+}
+
+@media (max-width: 900px) {
+  .searcher {
+    width: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .searcher {
+    width: 250px;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 1200px) and (max-width: 600px) {
+  .searcher {
+    width: 120px;
+  }
+}
+
+.searcher input {
+  text-align: center;
+  min-height: 40px;
+  display: block;
+  border-radius: 2%;
+  border-color: transparent;
+}
+
+@media (max-width: 1024px) {
+  .searcher input {
+    min-height: 35px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .searcher input {
+    min-height: 30px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  .searcher input {
+    min-height: 26px;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 1200px) and (max-width: 600px) {
+  .searcher input {
+    min-height: 12px;
+    font-size: 10px;
+  }
+}
+
+.searcher .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background: #fff;
+  text-align: left;
+  border: black ridge 1px;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.searcher .box img {
+  width: 30%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.searcher .box p {
+  width: 70%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  word-wrap: break-word;
+  white-space: normal;
+}
+/*# sourceMappingURL=searcher.css.map */
