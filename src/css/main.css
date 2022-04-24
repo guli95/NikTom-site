@@ -295,7 +295,7 @@
 
 @media (orientation: portrait) and (max-height: 1200px) and (max-width: 600px) {
   .navi li a {
-    font-size: 10px;
+    font-size: 8px;
     margin-top: 1.5vh;
   }
 }
@@ -774,12 +774,11 @@ section {
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
   max-height: 400px;
-  min-height: 300px;
+  min-height: 350px;
+  max-width: 600px;
   overflow: hidden;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
   margin-bottom: 5%;
-  border-radius: 2rem;
 }
 
 @media (max-width: 620px) {
@@ -810,14 +809,16 @@ section {
 
 .item_card .image_container {
   overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 4rem;
 }
 
 .item_card .image_container img {
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  -ms-flex-preferred-size: 80%;
-      flex-basis: 80%;
-  max-width: 100%;
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -834,8 +835,15 @@ section {
 }
 
 .item_card p {
-  height: 3rem;
+  height: 4rem;
   width: 100%;
+  z-index: 2;
+  border-radius: 0 0 2rem 2rem;
+  line-height: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+  font-size: 0.9rem;
   padding-top: 10px;
   background-color: #e30713;
   text-align: center;
@@ -1233,7 +1241,7 @@ section {
 
 @media (orientation: portrait) and (max-height: 1200px) and (max-width: 600px) {
   .navi li a {
-    font-size: 10px;
+    font-size: 8px;
     margin-top: 1.5vh;
   }
 }

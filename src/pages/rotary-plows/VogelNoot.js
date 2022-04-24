@@ -3,9 +3,10 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/dji-5331597_1280.jpg";
-import asset2 from "../../images/slider_1.jpg";
-import asset3 from "../../images/slider_2.jpg";
+import asset1 from "../../images/8plugi-obrotowe/VOGEL NOTE ZAB. ZRYWALNE EURO-MASZ/178838091_742871996400648_6102282565372036272_n.jpg";
+import asset2 from "../../images/8plugi-obrotowe/VOGEL NOTE ZAB. ZRYWALNE EURO-MASZ/179546488_3834296756640118_1117662125705218121_n.jpg";
+import asset3 from "../../images/8plugi-obrotowe/VOGEL NOTE ZAB. ZRYWALNE EURO-MASZ/179669946_788513081772815_228645311931653730_n.jpg";
+import asset4 from "../../images/8plugi-obrotowe/VOGEL NOTE ZAB. ZRYWALNE EURO-MASZ/180333217_295699342033380_5334597877973025008_n.jpg";
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
@@ -170,7 +171,7 @@ const VogelNoot = () => (
         />
         <PrizeBtn />
         <div className="assets">
-          <LightBox assets={[asset1, asset2, asset3]} />
+          <LightBox assets={[asset1, asset2, asset3, asset4]} />
         </div>
       </div>
     </div>

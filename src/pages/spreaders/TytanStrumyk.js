@@ -3,9 +3,11 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/dji-5331597_1280.jpg";
-import asset2 from "../../images/slider_1.jpg";
-import asset3 from "../../images/slider_2.jpg";
+import asset1 from "../../images/13rozsiewacze/ROZSIEWACZ DWUTARCZOWY STRUMYK/STRUMYK ROZSIEWACZ/IMG_9726.jpg";
+import asset2 from "../../images/13rozsiewacze/ROZSIEWACZ DWUTARCZOWY STRUMYK/STRUMYK ROZSIEWACZ/IMG_9727.jpg";
+import asset3 from "../../images/13rozsiewacze/ROZSIEWACZ DWUTARCZOWY STRUMYK/STRUMYK ROZSIEWACZ/IMG_9731.jpg";
+import asset4 from "../../images/13rozsiewacze/ROZSIEWACZ DWUTARCZOWY STRUMYK/STRUMYK ROZSIEWACZ/IMG_9732.jpg";
+
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
@@ -81,7 +83,7 @@ const TytanStrumyk = () => (
         />
         <PrizeBtn />
         <div className="assets">
-          <LightBox assets={[asset1, asset2, asset3]} />
+          <LightBox assets={[asset1, asset2, asset3, asset4]} />
         </div>
       </div>
     </div>

@@ -3,9 +3,11 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/dji-5331597_1280.jpg";
-import asset2 from "../../images/slider_1.jpg";
-import asset3 from "../../images/slider_2.jpg";
+import asset1 from "../../images/7plugi-jednobelkowe/PJ16/212020288_1178976279269801_5639755209808180495_n.jpg";
+import asset2 from "../../images/7plugi-jednobelkowe/PJ16/217123112_255748295922073_1491058198635234257_n.jpg";
+import asset3 from "../../images/7plugi-jednobelkowe/PJ16/IMG_6894.JPG";
+import asset4 from "../../images/7plugi-jednobelkowe/PJ16/IMG_6895.JPG";
+import asset5 from "../../images/7plugi-jednobelkowe/PJ16/IMG_6896.JPG";
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
@@ -21,7 +23,7 @@ const PJ16EuroMasz = () => (
       <h1 className="product-title">{info[0].name}</h1>
       <div className="description">
         <ul>
-          <h3>PJM</h3>
+          <h3>PJ16</h3>
           <li>
             <span>rama 120x120x6</span>
           </li>
@@ -112,7 +114,7 @@ const PJ16EuroMasz = () => (
         />
         <PrizeBtn />
         <div className="assets">
-          <LightBox assets={[asset1, asset2, asset3]} />
+          <LightBox assets={[asset1, asset2, asset3, asset4, asset5]} />
         </div>
       </div>
     </div>

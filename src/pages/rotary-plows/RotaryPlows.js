@@ -13,7 +13,7 @@ const RotaryPlows = () => (
         if (item.id >= 62 && item.id <= 68) {
           return (
             <ItemCard
-              img={require(`../../${item.imgUrl}`)}
+              img={item.imgUrl}
               alt={item.name}
               name={item.name}
               link={item.route}

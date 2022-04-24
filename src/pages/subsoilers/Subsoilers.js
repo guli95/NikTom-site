@@ -15,7 +15,7 @@ const Subsoilers = () => (
           return (
             <ItemCard
               // img="../../images/dji-5331597_1280.jpg"
-              img={require(`../../${item.imgUrl}`)}
+              img={item.imgUrl}
               alt={item.name}
               name={item.name}
               link={item.route}

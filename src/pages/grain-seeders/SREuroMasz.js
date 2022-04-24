@@ -3,9 +3,9 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/dji-5331597_1280.jpg";
-import asset2 from "../../images/slider_1.jpg";
-import asset3 from "../../images/slider_2.jpg";
+import asset1 from "../../images/11siewniki-zbozowe/SIEWNIK STOPKOWY EURO-MASZ/SR/IMG_9804.jpg";
+import asset2 from "../../images/11siewniki-zbozowe/SIEWNIK STOPKOWY EURO-MASZ/SR/IMG_9806.jpg";
+import asset3 from "../../images/11siewniki-zbozowe/SIEWNIK STOPKOWY EURO-MASZ/SR/IMG_9807.jpg";
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 

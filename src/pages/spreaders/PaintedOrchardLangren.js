@@ -3,9 +3,11 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/dji-5331597_1280.jpg";
-import asset2 from "../../images/slider_1.jpg";
-import asset3 from "../../images/slider_2.jpg";
+import asset1 from "../../images/13rozsiewacze/ROZSIEWACZ NAWOZU MALOWANY LANGREN/242909782_3040541692887674_628610271157721715_n.jpg";
+import asset2 from "../../images/13rozsiewacze/ROZSIEWACZ NAWOZU MALOWANY LANGREN/242909782_3040541692887674_628610271157721715_n.jpg";
+import asset3 from "../../images/13rozsiewacze/ROZSIEWACZ NAWOZU MALOWANY LANGREN/243789694_226024696251319_245287694678744202_n.jpg";
+import asset4 from "../../images/13rozsiewacze/ROZSIEWACZ NAWOZU MALOWANY LANGREN/243827147_189795389946387_5158449200890513875_n.jpg";
+import asset5 from "../../images/13rozsiewacze/ROZSIEWACZ NAWOZU MALOWANY LANGREN/243992716_580170803263665_5205048469613093023_n.jpg";
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
@@ -72,7 +74,7 @@ const PaintedOrchardLangren = () => (
         />
         <PrizeBtn />
         <div className="assets">
-          <LightBox assets={[asset1, asset2, asset3]} />
+          <LightBox assets={[asset1, asset2, asset3, asset4, asset5]} />
         </div>
       </div>
     </div>

@@ -2,6 +2,8 @@ import strumyk from "../src/images/logos/strumyk.png";
 import tolmet from "../src/images/logos/tolmet.png";
 import euro from "../src/images/logos/euromasz.png";
 import selmar from "../src/images/logos/selmar.png";
+import promar from "../src/images/logos/Promar.jpg";
+import langren from "../src/images/logos/langren.png";
 import au from "../src/images/1agregaty-uprawowe/AGREGAT PRZEDSIEWNY EURO-MASZ/AU/IMG_9816.jpg";
 import auc from "../src/images/1agregaty-uprawowe/AGREGAT UPRAWOWO PRZEDSIEWNY CIEŻKI EURO-MASZ/kljm (9).jpg";
 import neon from "../src/images/1agregaty-uprawowe/Neon/neon 3 przod.png";
@@ -20,6 +22,48 @@ import megatronUT from "../src/images/4brony-talerzowe/Megatron z UT/megatron pr
 import simply200 from "../src/images/4brony-talerzowe/Simply 200/IMG_0362.png";
 import tenes from "../src/images/4brony-talerzowe/Tenes/tenes 2.png";
 import tenesUt from "../src/images/4brony-talerzowe/Tenes z UT/t przod .png";
+import arsen from "../src/images/5grubery/Arsen/Arsen 180.png";
+
+import springAgrregateEuro from "../src/images/5grubery/GRUBER SPRĘŻYNA EURO-MASZ/GRUBER NON-STOP/IMG_9856.jpg";
+import snailAggregateEuro from "../src/images/5grubery/GRUBER ŚLIMAK EURO-MASZ/164625370_471317320723964_8613995887485439454_n (Copy).jpg";
+import krypton from "../src/images/5grubery/Krypton/przod krypton.png";
+import cultivator from "../src/images/5grubery/Kultywator ścierniskowy/przod 1 kultywator.png";
+
+import deltaWO from "../src/images/6agregaty-podrywkowe/delta kret z wałem oponowym/kret na oponowym przód.png";
+import delta from "../src/images/6agregaty-podrywkowe/Kret  Delta/kret przod kolory.png";
+
+import PJ16 from "../src/images/7plugi-jednobelkowe/PJ16/IMG_6894.JPG";
+import PJ18 from "../src/images/7plugi-jednobelkowe/pj18/PJ 18/IMG_9733.jpg";
+import PJR from "../src/images/7plugi-jednobelkowe/PJR/PJR/IMG_9756.jpg";
+import atlasPlow from "../src/images/8plugi-obrotowe/atlas/IMG_9822.jpg";
+import POPlow from "../src/images/8plugi-obrotowe/PO/IMG_9701.jpg";
+import vogelNotePlow from "../src/images/8plugi-obrotowe/VOGEL NOTE ZAB. ZRYWALNE EURO-MASZ/178838091_742871996400648_6102282565372036272_n.jpg";
+import michaelG from "../src/images/9glebosze/Michel/przod michel.png";
+import thorG from "../src/images/9glebosze/Thor głębosz/glebosz 1.png";
+import wheelsEuroG from "../src/images/9glebosze/GŁĘBOSZ NA KOŁACH ZAB. SPRĘŻYNOWE EURO MASZ/189285721_201752398455662_1216878534170548642_n.jpg";
+import wheelLessEuroG from "../src/images/9glebosze/GŁĘBOSZ KOŁEK BEZ KÓŁ EURO-MASZ/GZ/IMG_9882.jpg";
+import seedSuspendEuro from "../src/images/10waly posiewne/WAŁ POSIEWNY ZAWIESZANY EURO-MASZ/257526590_7180850261941261_8818920371837196255_n.jpg";
+import BuiltUpEuro from "../src/images/11siewniki-zbozowe/SIEWNIK NADBUDOWANY Z AGREGATEM EURO-MASZ/siewnoik-rzedowy-nabudowany-euromasz-05.jpg";
+import SRT from "../src/images/11siewniki-zbozowe/SIEWNIK ZBOŻOWY DWUTALERZOWY MODEL SRT EURO-MASZ/SRT/IMG_9811.jpg";
+import SR from "../src/images/11siewniki-zbozowe/SIEWNIK STOPKOWY EURO-MASZ/SR/IMG_9804.jpg";
+import rakeEuro from "../src/images/12zgrabiarki-karuzelowe/ZGRABIARKA KARUZELOWA EURO-MASZ/161072160_445366863346339_2726573925929161262_n.jpg";
+import rakePromar from "../src/images/12zgrabiarki-karuzelowe/ZGRABIARKA KARUZELOWA PROMAR/ZGRABIARKJA PROMAR/IMG_9784.jpg";
+import doubleShieldSpreader from "../src/images/13rozsiewacze/ROZSIEWACZ DWUTARCZOWY STRUMYK/STRUMYK ROZSIEWACZ/IMG_9726.jpg";
+import paintedLangren from "../src/images/13rozsiewacze/ROZSIEWACZ NAWOZU MALOWANY LANGREN/242909782_3040541692887674_628610271157721715_n.jpg";
+import paintedPromar from "../src/images/13rozsiewacze/ROZSIEWACZ NAWOZU MALOWANY PROMAR/MALOWANY PROMAR/IMG_9721.jpg";
+import stainlessLangren from "../src/images/13rozsiewacze/ROZSIEWACZ NAWOZU NIERDZEWNY LANGREN/243471882_563695221352810_3719140815771619749_n.jpg";
+import orchardPromar from "../src/images/13rozsiewacze/ROZSIEWACZ NAWOZU OCYNK PROMAR/IMG_20210322_092934.jpg";
+import borys1500 from "../src/images/15opryskiwacze-ciagane/Borys 1500/przod borys 1515 zielony.png";
+import borys2000 from "../src/images/15opryskiwacze-ciagane/Borys 2000/przód 2015 borys zielony.png";
+import borys2500 from "../src/images/15opryskiwacze-ciagane/Borys 2500/borys 2518 front.png";
+import borys3000 from "../src/images/15opryskiwacze-ciagane/Borys 3000";
+import bruno1200 from "../src/images/15opryskiwacze-ciagane/Bruno 1200/Brono 1200 front.png";
+import bruno1500 from "../src/images/15opryskiwacze-ciagane/Bruno 1500/Bruno 1518 front.png";
+import bruno2000X from "../src/images/15opryskiwacze-ciagane/Bruno 2000 X";
+import bruno2500X from "../src/images/15opryskiwacze-ciagane/Bruno 2500 X";
+import promar2018hu from "../src/images/15opryskiwacze-ciagane/opryskiwacz 2018HU/DSCN2097.JPG";
+import promarDuo10001500 from "../src/images/15opryskiwacze-ciagane/OPRYSKIWACZ SADOWNICZY CIĄGANY PROMAR DUO 1000 i 1500/IMG_20210322_093859.jpg";
+import promarHX from "../src/images/15opryskiwacze-ciagane/opryskiwacze przycz. HX/OPRYSKIWACZE CIĄGANE RĘCZNIE ROZKŁADANE PROMAR/163318395_797571547862606_650432316968348733_n.jpg";
 
 const data = [
   //1agregat uprawowe
@@ -264,701 +308,652 @@ const data = [
     id: 42,
   },
 
-  //agregaty podrywkowe
+  //5. agregaty podrywkowe grubery
   {
     name: `Agregat podrywkowy "gruber" zab zrywalne Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: euro,
+    searcherImg: euro,
     route: "/agregaty-podrywkowe/zab-zrywalne-euro-masz",
     id: 43,
   },
   {
     name: `Agregat podrywkowy "gruber" zab ślimakowe Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: snailAggregateEuro,
+    searcherImg: euro,
     route: "/agregaty-podrywkowe/zab-slimakowe-euro-masz",
     id: 44,
   },
   {
-    name: `Agregat podrywkowy "gruber" zab sprężynowe`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `Agregat podrywkowy "gruber" zab sprężynowe Euro-masz`,
+    imgUrl: springAgrregateEuro,
+    searcherImg: euro,
     route: "/agregaty-podrywkowe/zab-sprezynowe",
     id: 45,
   },
-  {
-    name: `Agregat ścierniskowy zab kołkowe Armasz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
-    route: "/agregaty-podrywkowe/zab-kolkowe-armasz",
-    id: 46,
-  },
-  {
-    name: `Agregat ścierniskowy zab ślimakowe Armasz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
-    route: "/agregaty-podrywkowe/zab-slimakowe-armasz",
-    id: 47,
-  },
-  {
-    name: `Agregat ścierniskowy zab sprężynowe Armasz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
-    route: "/agregaty-podrywkowe/zab-sprezynowe-armasz",
-    id: 48,
-  },
+
   {
     name: `Agregat podrywkowy "krypton" Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: krypton,
+    searcherImg: tolmet,
     route: "/agregaty-podrywkowe/krypton-tolmet",
     id: 49,
   },
   {
     name: `Agregat podrywkowy "arsen" Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: arsen,
+    searcherImg: tolmet,
     route: "/agregaty-podrywkowe/arsen-tolmet",
     id: 50,
   },
   {
     name: `kultywator ścierniskowy Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: cultivator,
+    searcherImg: tolmet,
     route: "/agregaty-podrywkowe/kultywator-tolmet",
     id: 51,
   },
 
-  //agregaty podrywkowo - orkowe
+  //6. agregaty podrywkowo - orkowe
   {
     name: `Agregat podrywkowo-orkowy/bezorkowy Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: euro,
+    searcherImg: euro,
     route: "/agregaty-podrywkowo-orkowe/bezorkowy-euro-masz",
     id: 52,
   },
   {
     name: `Agregat podrywkowo-orkowy/bezorkowy wał składany na górę agregatu Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: euro,
+    searcherImg: euro,
     route: "/agregaty-podrywkowo-orkowe/wal-skladany-na-gore-euro-masz",
     id: 53,
   },
-  {
-    name: `Agregat bezorkowy Armasz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
-    route: "/agregaty-podrywkowo-orkowe/bezorkowy-armasz",
-    id: 54,
-  },
+
   {
     name: `Agregat bezorkowy "DELTA" "KRET" Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: delta,
+    searcherImg: tolmet,
     route: "/agregaty-podrywkowo-orkowe/delta-kret-tolmet",
     id: 55,
   },
   {
     name: `Agregat bezorkowy "DELTA" "KRET" Tolmet z wałem oponowym`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: deltaWO,
+    searcherImg: tolmet,
     route: "/agregaty-podrywkowo-orkowe/delta-kret-tolmet-wal oponowy",
     id: 550,
   },
   {
     name: `Agregat bezorkowy hydraulicznie składany półzawieszany "DELTA" Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: tolmet,
+    searcherImg: tolmet,
     route: "/agregaty-podrywkowo-orkowe/delta-skladany-tolmet",
     id: 56,
   },
 
-  //pługi jednobelkowe
+  //7.pługi jednobelkowe
   {
     name: `pług zagonowy(PZ) zab kołkowe Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: euro,
+    searcherImg: euro,
     route: "/plugi-jednobelkowe-zagonowe/pz-euro-masz",
     id: 57,
   },
   {
     name: `pług jednobelkowy(PJM) zab kołkowe Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: euro,
+    searcherImg: euro,
     route: "/plugi-jednobelkowe-zagonowe/pjm-euro-masz",
     id: 58,
   },
   {
     name: `pług jednobelkowy (PJ) zab kołkowe Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: PJ16,
+    searcherImg: euro,
     route: "/plugi-jednobelkowe-zagonowe/16-pj-euro-masz",
     id: 59,
   },
   {
     name: `pług jednobelkowy 18 (PJ) zab kołkowe Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: PJ18,
+    searcherImg: euro,
     route: "/plugi-jednobelkowe-zagonowe/18-pj-euro-masz",
     id: 600,
   },
   {
     name: `pług jednobelkowy (PJR) zab resorowe Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: PJR,
+    searcherImg: euro,
     route: "/plugi-jednobelkowe-zagonowe/pjl-euro-masz",
     id: 61,
   },
 
-  //pługi obrotowe
+  //8.pługi obrotowe
   {
     name: `pług obrotowy "atlas" 16 typ lekki rama podwojna zab kolkowe Euro-Masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: atlasPlow,
+    searcherImg: euro,
     route: "/plugi-obrotowe/atlas",
     id: 62,
   },
   {
     name: `pług obrotowy (POM) 16  zab kolkowe Euro-Masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: euro,
+    searcherImg: euro,
     route: "/plugi-obrotowe/pom-16-euro-masz",
     id: 63,
   },
   {
     name: `pług obrotowy "PO" 18 zab zrywalne Euro-Masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: POPlow,
+    searcherImg: euro,
     route: "/plugi-obrotowe/po-18-euro-masz",
     id: 64,
   },
   {
     name: `pług obrotowy "PON" Vogeł 8 NOOT 18 zab zrywalne Euro-Masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
+    imgUrl: vogelNotePlow,
     searcherImg: "images/logo.jpg",
     route: "/plugi-obrotowe/vogel-noot-euro-masz",
     id: 65,
   },
   {
     name: `pług obrotowy zab resorowe (POR) 184`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: euro,
+    searcherImg: euro,
     route: "/plugi-obrotowe/por-184",
     id: 66,
   },
   {
     name: `pług dłutowy ripper (PD) Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: euro,
+    searcherImg: euro,
     route: "/plugi-obrotowe/ripper-euro-masz",
     id: 67,
   },
   {
     name: `pług dłutowy tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: tolmet,
+    searcherImg: tolmet,
     route: "/plugi-obrotowe/dlutowy-tolmet",
     id: 68,
   },
 
-  //głębosze
+  //9.głębosze
   {
     name: `Głebosz zab zrywalne Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: wheelLessEuroG,
+    searcherImg: euro,
     route: "/glebosze/zab-zrywalne-euro-masz",
     id: 69,
   },
   {
     name: `Głebosz zab zrywalne Strumyk`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: strumyk,
+    searcherImg: strumyk,
     route: "/glebosze/zab-zrywalne-strumyk",
     id: 70,
   },
-  {
-    name: `Głebosz "kret" bez wału zab zrywalne Armasz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
-    route: "/glebosze/kret-bez-wal-armasz",
-    id: 71,
-  },
-  {
-    name: `Głebosz "kret" z wałem zab zrywalne Armasz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
-    route: "/glebosze/kret-z-walem-armasz",
-    id: 72,
-  },
+
   {
     name: `Głebosz zab zrywalne Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: thorG,
+    searcherImg: tolmet,
     route: "/glebosze/zab-zrywalne-tolmet",
     id: 73,
   },
   {
     name: `Głebosz zab zrywalne "Michael" Euro-Masz (GK)`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: wheelsEuroG,
+    searcherImg: euro,
     route: "/glebosze/michael-gk",
     id: 74,
   },
   {
     name: `Głebosz zab sprężynowe "Michael" Euro-Masz (GS)`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: wheelsEuroG,
+    searcherImg: euro,
     route: "/glebosze/michael-gs",
     id: 7401,
   },
-  {
-    name: `Głebosz zab zrywalne "Michael" Armasz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
-    route: "/glebosze/michael-zrywalne-armasz",
-    id: 75,
-  },
-  {
-    name: `Głebosz zab sprężynowe "Michael" Armasz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
-    route: "/glebosze/michael-sprezynowe-armasz",
-    id: 76,
-  },
+
   {
     name: `Głebosz belkowy zab zrywalne "Michael" Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: michaelG,
+    searcherImg: tolmet,
     route: "/glebosze/michael-zrywalne-tolmet",
     id: 77,
   },
 
-  //wały posiewne
+  //10 wały posiewne
   {
     name: `Wał posiewny zawieszany Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: seedSuspendEuro,
+    searcherImg: euro,
     route: "/waly-posiewne/zawieszany-euro-masz",
     id: 78,
   },
   {
     name: `Wał posiewny ciągany Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: euro,
+    searcherImg: euro,
     route: "/waly-posiewne/ciagany-euro-masz",
     id: 79,
   },
   {
     name: `Wał posiewny ciągany hydrauliczny Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: euro,
+    searcherImg: euro,
     route: "/waly-posiewne/ciagany-hydrauliczny-euro-masz",
     id: 80,
   },
 
-  //siewniki zbożowe
+  //11siewniki zbożowe
   {
     name: `siewnik zbożowy stopkowy (SR) Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: SR,
+    searcherImg: euro,
     route: "/siewniki-zbozowe/sr-euro-masz",
     id: 81,
   },
   {
     name: `siewnik zbożowy dwutalerzowy (SRT) Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: SRT,
+    searcherImg: euro,
     route: "/siewniki-zbozowe/srt-euro-masz",
     id: 82,
   },
   {
     name: `siewnik zbożowy nadbudowany Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: BuiltUpEuro,
+    searcherImg: euro,
     route: "/siewniki-zbozowe/nadbudowany-euro-masz",
     id: 83,
   },
 
-  //zgrabiarki karuzelowe
+  //12.zgrabiarki karuzelowe
   {
     name: `zgrabiarka karuzelowa Euro-masz`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: rakeEuro,
+    searcherImg: euro,
     route: "/zgrabiarki-karuzelowe/euro-masz",
     id: 84,
   },
   {
     name: `zgrabiarka karuzelowa promar`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: rakePromar,
+    searcherImg: promar,
     route: "/zgrabiarki-karuzelowe/promar",
     id: 85,
   },
 
-  //rozsiewacze
+  //13 rozsiewacze
   {
     name: `rozsiewacz dwutarczowy "tytan" malowany Strumyk`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: doubleShieldSpreader,
+    searcherImg: strumyk,
     route: "/rozsiewacze/dwutarczowy-tytan-strumyk",
     id: 87,
   },
   {
     name: `rozsiewacz dwutarczowy malowany Promar`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: paintedPromar,
+    searcherImg: promar,
     route: "/rozsiewacze/dwutarczowy-malowany-promar",
     id: 88,
   },
   {
     name: `rozsiewacz dwutarczowy malowany Langren`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: paintedLangren,
+    searcherImg: langren,
     route: "/rozsiewacze/dwutarczowy-malowany-langren",
     id: 89,
   },
   {
     name: `rozsiewacz dwutarczowy ocynk promar`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: orchardPromar,
+    searcherImg: promar,
     route: "/rozsiewacze/dwutarczowy-ocynk-promar",
     id: 90,
   },
   {
     name: `rozsiewacz dwutarczowy nierdzewny Langren`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: stainlessLangren,
+    searcherImg: langren,
     route: "/rozsiewacze/dwutarczowy-nierdzewny-langren",
     id: 91,
   },
   {
     name: `rozsiewacz dwutarczowy premium Langren`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: langren,
+    searcherImg: langren,
     route: "/rozsiewacze/dwutarczowy-premium-langren",
     id: 9101,
   },
   {
     name: `rozsiewacz polowy typu lejek Langren`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: langren,
+    searcherImg: langren,
     route: "/rozsiewacze/polowy-lejek-langren",
     id: 92,
   },
   {
     name: `rozsiewacz lejek Strumyk`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: strumyk,
+    searcherImg: strumyk,
     route: "/rozsiewacze/lejek-strumyk",
     id: 93,
   },
   {
     name: `rozsiewacz sadowniczy lejek Strumyk`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: strumyk,
+    searcherImg: strumyk,
     route: "/rozsiewacze/sadowniczy-lejek-strumyk",
     id: 94,
   },
   {
     name: `rozsiewacz sadowniczy typu lejek Langren`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: langren,
+    searcherImg: langren,
     route: "/rozsiewacze/sadowniczy-lejek-langren",
     id: 95,
   },
   {
     name: `rozsiewacz sadowniczy Langren malowany`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: paintedLangren,
+    searcherImg: langren,
     route: "/rozsiewacze/sadowniczy-langren-malowany",
     id: 96,
   },
   {
     name: `rozsiewacz sadowniczy nierdzewny Langren`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: stainlessLangren,
+    searcherImg: stainlessLangren,
     route: "/rozsiewacze/sadowniczy-nierdzewny-langren",
     id: 97,
   },
   {
     name: `rozsiewacz wpana soli i piasku langren`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: langren,
+    searcherImg: langren,
     route: "/rozsiewacze/wapnia-soli-i-piasku-langren",
     id: 98,
   },
 
-  //opryskiwacze - ciagane
+  //15 opryskiwacze - ciągane 1
   {
-    name: `opryskiwacz zawieszany Bruno 1000 Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `opryskiwacz ciągany Bruno 1000 Tolmet`,
+    imgUrl: bruno1200,
+    searcherImg: tolmet,
     route: "/opryskiwacze-ciagane/bruno-1000-tolmet",
     id: 99,
   },
   {
-    name: `opryskiwacz zawieszany Promar 1200l/12/15m`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `opryskiwacz ciągany Promar 1200l/12/15m`,
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/promar-1200-12-15",
     id: 100,
   },
   {
-    name: `opryskiwacz zawieszany Promar 1200l/18m`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `opryskiwacz ciągany Promar 1200l/18m`,
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/promar-1200-18",
     id: 101,
   },
   {
-    name: `opryskiwacz zawieszany bruno 1200l tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `opryskiwacz ciągany bruno 1200l tolmet`,
+    imgUrl: bruno1200,
+    searcherImg: tolmet,
     route: "/opryskiwacze-ciagane/bruno-1200-tolmet",
     id: 102,
   },
   {
-    name: `opryskiwacz zawieszany Promar 1500l/15m`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `opryskiwacz ciągany Promar 1500l/15m`,
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/promar-1500-15",
     id: 103,
   },
   {
-    name: `opryskiwacz zawieszany Promar 1500l/18m`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `opryskiwacz ciągany Promar 1500l/18m`,
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/promar-1500-18",
     id: 104,
   },
   {
-    name: `opryskiwacz zawieszany Bruno 1500l tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `opryskiwacz ciągany Bruno 1500l tolmet`,
+    imgUrl: bruno1500,
+    searcherImg: tolmet,
     route: "/opryskiwacze-ciagane/bruno-1500-tolmet",
     id: 105,
   },
   {
-    name: `opryskiwacz zawieszany Promar 1700l/15/18m`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `opryskiwacz ciągany Promar 1700l/15/18m`,
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/promar-1700-15-18",
     id: 106,
   },
   {
-    name: `opryskiwacz zawieszany Promar 2000l/15/18m`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `opryskiwacz ciągany Promar 2000l/15/18m`,
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/promar-2000-15-18",
     id: 107,
   },
   {
-    name: `opryskiwacz zawieszany Bruno 2000l tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `opryskiwacz ciągany Bruno 2000l tolmet`,
+    imgUrl: bruno1500,
+    searcherImg: tolmet,
     route: "/opryskiwacze-ciagane/bruno-2000-tolmet",
     id: 108,
   },
   {
-    name: `opryskiwacz zawieszany Promar 2500l/15/18m`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `opryskiwacz ciągany Promar 2500l/15/18m`,
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/promar-2500-15-18",
     id: 109,
   },
+
   {
-    name: `opryskiwacz zawieszany Bruno 2500l tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    name: `opryskiwacz ciągany Bruno 2500l tolmet`,
+    imgUrl: bruno1500,
+    searcherImg: tolmet,
     route: "/opryskiwacze-ciagane/bruno-2500-tolmet",
     id: 110,
   },
+
+  //15 opryskiwacze ciągane
   {
     name: `opryskiwacz ciągany Bruno X 1000 Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: bruno2000X,
+    searcherImg: tolmet,
     route: "/opryskiwacze-ciagane/bruno-x-1000-tolmet",
     id: 111,
   },
   {
     name: `opryskiwacz ciągany Promar 1200l/15m 1215HX`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promarHX,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/1215-hx-promar",
     id: 112,
   },
   {
     name: `opryskiwacz ciągany z belką hydraulicznie rozkładaną Promar 1200l/15/18m H`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/1200-15-18-promar",
     id: 113,
   },
   {
     name: `opryskiwacz ciągany Bruno X 1200 Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: bruno2000X,
+    searcherImg: tolmet,
     route: "/opryskiwacze-ciagane/bruno-x-1200-tolmet",
     id: 114,
   },
   {
     name: `opryskiwacz ciągany Promar 1500l/15 1515HX`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promarHX,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/1515-hx-promar",
     id: 115,
   },
   {
     name: `opryskiwacz ciągany z belką hydraulicznie rozkładaną Promar 1500l/15/18m H`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/1500-15-18-promar",
     id: 116,
   },
   {
     name: `opryskiwacz ciągany Bruno X 1500 Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: bruno2000X,
+    searcherImg: tolmet,
     route: "/opryskiwacze-ciagane/bruno-x-1500-tolmet",
     id: 117,
   },
   {
     name: `opryskiwacz ciągany Borys 1500 Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: borys1500,
+    searcherImg: tolmet,
     route: "/opryskiwacze-ciagane/borys-1500-tolmet",
     id: 118,
   },
   {
     name: `opryskiwacz ciągany z belką hydraulicznie rozkładaną Promar 1700l/15/18m H`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/1700-15-18-promar",
     id: 119,
   },
   {
     name: `opryskiwacz ciągany Promar 2000l/15 2015HX`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promarHX,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/2015-hx-promar",
     id: 120,
   },
   {
     name: `opryskiwacz ciągany z belką hydraulicznie rozkładaną Promar 2000l/15/18/21 H`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/2000-15-18-21-promar",
     id: 121,
   },
   {
     name: `opryskiwacz ciągany Bruno X 2000 Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: bruno2000X,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/bruno-x-2000-tolmet",
     id: 122,
   },
   {
     name: `opryskiwacz ciągany Borys 2000 Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: borys2000,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/borys-2000-tolmet",
     id: 123,
   },
   {
     name: `opryskiwacz ciągany Promar 2000l/18 belka włoska bargam 2018HU`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promar2018hu,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/2018-hu-promar",
     id: 124,
   },
   {
     name: `opryskiwacz ciągany Promar 2000l/21 belka włoska bargam 2021HU`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promar2018hu,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/2021-hu-promar",
     id: 125,
   },
   {
     name: `opryskiwacz ciągany Promar 2500l/15 2515HX`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promarHX,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/2515-hx-promar",
     id: 126,
   },
   {
     name: `opryskiwacz ciągany Promar 2500l/18 2518HU`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promar2018hu,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/2518-hu-promar",
     id: 127,
   },
   {
     name: `opryskiwacz ciągany Promar 2500l/21 2521HU`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promar2018hu,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/2521-hu-promar",
     id: 128,
   },
   {
     name: `opryskiwacz ciągany z belką hydraulicznie rozkładaną Promar 2500l/15/18/21 H`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/2500-15-18-21-promar",
     id: 129,
   },
   {
     name: `opryskiwacz ciągany Bruno X 2500 Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: bruno2500X,
+    searcherImg: tolmet,
     route: "/opryskiwacze-ciagane/bruno-x-2500-tolmet",
     id: 130,
   },
   {
     name: `opryskiwacz ciągany Borys 2500 Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: borys2500,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/borys-2500-tolmet",
     id: 131,
   },
   {
     name: `opryskiwacz ciągany z belką hydraulicznie rozkładaną Promar 3000l/15/18/21 H`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/3000-15-18-21-promar",
     id: 132,
   },
   {
     name: `opryskiwacz ciągany Borys 3000 Tolmet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: borys3000,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/borys-3000-tolmet",
     id: 133,
   },
   {
     name: `opryskiwacz sadowniczy Promar 1000 Duo`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promarDuo10001500,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/1000-duo-promar",
     id: 134,
   },
   {
     name: `opryskiwacz sadowniczy Promar 1500 Duo`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promarDuo10001500,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/1500-duo-promar",
     id: 135,
   },
   {
     name: `opryskiwacz sadowniczy Promar 1000 Oktopus`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/1000-oktopus-promar",
     id: 136,
   },
   {
     name: `opryskiwacz sadowniczy Promar 1500 Oktopus`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: promar,
+    searcherImg: promar,
     route: "/opryskiwacze-ciagane/1500-oktopus-promar",
     id: 137,
   },

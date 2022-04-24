@@ -3,9 +3,9 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/dji-5331597_1280.jpg";
-import asset2 from "../../images/slider_1.jpg";
-import asset3 from "../../images/slider_2.jpg";
+import asset1 from "../../images/9glebosze/GŁĘBOSZ KOŁEK BEZ KÓŁ EURO-MASZ/GZ/IMG_9882.jpg";
+import asset2 from "../../images/9glebosze/GŁĘBOSZ KOŁEK BEZ KÓŁ EURO-MASZ/GZ/IMG_9883.jpg";
+import asset3 from "../../images/9glebosze/GŁĘBOSZ KOŁEK BEZ KÓŁ EURO-MASZ/GZ/IMG_9884.jpg";
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 

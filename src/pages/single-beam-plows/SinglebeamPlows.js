@@ -13,7 +13,7 @@ const SingleBeamPlows = () => (
         if (item.id >= 57 && item.id <= 61) {
           return (
             <ItemCard
-              img={require(`../../${item.imgUrl}`)}
+              img={item.imgUrl}
               alt={item.name}
               name={item.name}
               link={item.route}

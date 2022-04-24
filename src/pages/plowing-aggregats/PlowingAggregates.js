@@ -13,7 +13,7 @@ const PlowingAggregates = () => (
         if ((item.id >= 52 && item.id <= 56) || item.id === 550) {
           return (
             <ItemCard
-              img={require(`../../${item.imgUrl}`)}
+              img={item.imgUrl}
               alt={item.name}
               name={item.name}
               link={item.route}

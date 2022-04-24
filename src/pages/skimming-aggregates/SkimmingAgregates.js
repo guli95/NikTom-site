@@ -13,7 +13,7 @@ const SkimmingAgregates = () => (
         if (item.id >= 43 && item.id <= 51) {
           return (
             <ItemCard
-              img={require(`../../${item.imgUrl}`)}
+              img={item.imgUrl}
               alt={item.name}
               name={item.name}
               link={item.route}

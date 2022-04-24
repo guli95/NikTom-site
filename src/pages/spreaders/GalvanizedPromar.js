@@ -3,9 +3,12 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/dji-5331597_1280.jpg";
-import asset2 from "../../images/slider_1.jpg";
-import asset3 from "../../images/slider_2.jpg";
+import asset1 from "../../images/13rozsiewacze/ROZSIEWACZ NAWOZU OCYNK PROMAR/IMG_20210322_092934.jpg";
+import asset2 from "../../images/13rozsiewacze/ROZSIEWACZ NAWOZU OCYNK PROMAR/IMG_20210322_092936.jpg";
+import asset3 from "../../images/13rozsiewacze/ROZSIEWACZ NAWOZU OCYNK PROMAR/IMG_20210322_092942_1.jpg";
+import asset4 from "../../images/13rozsiewacze/ROZSIEWACZ NAWOZU OCYNK PROMAR/IMG_20210322_093546.jpg";
+import asset5 from "../../images/13rozsiewacze/ROZSIEWACZ NAWOZU OCYNK PROMAR/IMG_20210322_093551.jpg";
+import asset6 from "../../images/13rozsiewacze/ROZSIEWACZ NAWOZU OCYNK PROMAR/IMG_20210322_093604.jpg";
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
@@ -62,7 +65,7 @@ const PaintedPromar = () => (
         />
         <PrizeBtn />
         <div className="assets">
-          <LightBox assets={[asset1, asset2, asset3]} />
+          <LightBox assets={[asset1, asset2, asset3, asset4, asset5, asset6]} />
         </div>
       </div>
     </div>

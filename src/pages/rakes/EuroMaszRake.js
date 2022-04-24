@@ -3,9 +3,11 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/dji-5331597_1280.jpg";
-import asset2 from "../../images/slider_1.jpg";
-import asset3 from "../../images/slider_2.jpg";
+import asset1 from "../../images/12zgrabiarki-karuzelowe/ZGRABIARKA KARUZELOWA EURO-MASZ/161072160_445366863346339_2726573925929161262_n.jpg";
+import asset2 from "../../images/12zgrabiarki-karuzelowe/ZGRABIARKA KARUZELOWA EURO-MASZ/161322341_752274029008272_6638786367988674777_n.jpg";
+import asset3 from "../../images/12zgrabiarki-karuzelowe/ZGRABIARKA KARUZELOWA EURO-MASZ/161431968_832888637437753_6208045088428422213_n.jpg";
+import asset4 from "../../images/12zgrabiarki-karuzelowe/ZGRABIARKA KARUZELOWA EURO-MASZ/165021869_651017972356863_672784673014151913_n.jpg";
+import asset5 from "../../images/12zgrabiarki-karuzelowe/ZGRABIARKA KARUZELOWA EURO-MASZ/sdfgthjkml (2).jpg";
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
@@ -50,7 +52,7 @@ const EuroMaszRake = () => (
         />
         <PrizeBtn />
         <div className="assets">
-          <LightBox assets={[asset1, asset2, asset3]} />
+          <LightBox assets={[asset1, asset2, asset3, asset4, asset5]} />
         </div>
       </div>
     </div>

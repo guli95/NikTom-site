@@ -3,9 +3,13 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/dji-5331597_1280.jpg";
-import asset2 from "../../images/slider_1.jpg";
-import asset3 from "../../images/slider_2.jpg";
+import asset1 from "../../images/9glebosze/GŁĘBOSZ NA KOŁACH ZAB. SPRĘŻYNOWE EURO MASZ/189285721_201752398455662_1216878534170548642_n.jpg";
+import asset2 from "../../images/9glebosze/GŁĘBOSZ NA KOŁACH ZAB. SPRĘŻYNOWE EURO MASZ/190330810_222073169420717_7892550746669427370_n.jpg";
+import asset3 from "../../images/9glebosze/GŁĘBOSZ NA KOŁACH ZAB. SPRĘŻYNOWE EURO MASZ/189321465_817019585860690_2600730669866172170_n.jpg";
+import asset4 from "../../images/9glebosze/GŁĘBOSZ NA KOŁACH ZAB. SPRĘŻYNOWE EURO MASZ/189613088_953037425531451_4899572913927500379_n.jpg";
+import asset5 from "../../images/9glebosze/GŁĘBOSZ NA KOŁACH ZAB. SPRĘŻYNOWE EURO MASZ/189731631_1881927861988195_6561424189540224166_n.jpg";
+import asset6 from "../../images/9glebosze/GŁĘBOSZ NA KOŁACH ZAB. SPRĘŻYNOWE EURO MASZ/9U9786564EWAEDZXCVBNJKL (7).jpg";
+import asset7 from "../../images/9glebosze/GŁĘBOSZ NA KOŁACH ZAB. SPRĘŻYNOWE EURO MASZ/190493242_1216114945486659_8265433438711006044_n.jpg";
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
@@ -136,7 +140,9 @@ const MichaelGS = () => (
         />
         <PrizeBtn />
         <div className="assets">
-          <LightBox assets={[asset1, asset2, asset3]} />
+          <LightBox
+            assets={[asset1, asset2, asset3, asset4, asset5, asset6, asset7]}
+          />
         </div>
       </div>
     </div>

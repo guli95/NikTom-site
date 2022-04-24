@@ -3,9 +3,8 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/dji-5331597_1280.jpg";
-import asset2 from "../../images/slider_1.jpg";
-import asset3 from "../../images/slider_2.jpg";
+import asset1 from "../../images/15opryskiwacze-ciagane/Borys 1500/przod borys 1515 zielony.png";
+import asset2 from "../../images/15opryskiwacze-ciagane/Borys 1500/tyl borys 1515 ok.png";
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
@@ -128,7 +127,7 @@ const Borys1500 = () => (
         />
         <PrizeBtn />
         <div className="assets">
-          <LightBox assets={[asset1, asset2, asset3]} />
+          <LightBox assets={[asset1, asset2]} />
         </div>
       </div>
     </div>

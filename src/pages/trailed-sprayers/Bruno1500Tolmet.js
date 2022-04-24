@@ -3,9 +3,8 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/dji-5331597_1280.jpg";
-import asset2 from "../../images/slider_1.jpg";
-import asset3 from "../../images/slider_2.jpg";
+import asset1 from "../../images/15opryskiwacze-ciagane/Bruno 1500/Bruno 1518 front.png";
+import asset2 from "../../images/15opryskiwacze-ciagane/Bruno 1500/Bruno 1518 back.png";
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
@@ -136,7 +135,7 @@ const Bruno1500Tolmet = () => (
         />
         <PrizeBtn />
         <div className="assets">
-          <LightBox assets={[asset1, asset2, asset3]} />
+          <LightBox assets={[asset1, asset2]} />
         </div>
       </div>
     </div>

@@ -3,9 +3,11 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/dji-5331597_1280.jpg";
-import asset2 from "../../images/slider_1.jpg";
-import asset3 from "../../images/slider_2.jpg";
+import asset1 from "../../images/5grubery/GRUBER ŚLIMAK EURO-MASZ/165283503_917954165605353_3263555855815076844_n.jpg";
+import asset2 from "../../images/5grubery/GRUBER ŚLIMAK EURO-MASZ/164625370_471317320723964_8613995887485439454_n.jpg";
+import asset3 from "../../images/5grubery/GRUBER ŚLIMAK EURO-MASZ/165058128_5197358853672614_6405054829589977612_n.jpg";
+import asset4 from "../../images/5grubery/GRUBER ŚLIMAK EURO-MASZ/165297926_866296200893889_3881397351957294621_n.jpg";
+import asset5 from "../../images/5grubery/GRUBER ŚLIMAK EURO-MASZ/dcvgbh (1).jpg";
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 
@@ -148,7 +150,7 @@ const SnailEuroMasz = () => (
         />
         <PrizeBtn />
         <div className="assets">
-          <LightBox assets={[asset1, asset2, asset3]} />
+          <LightBox assets={[asset1, asset2, asset3, asset4, asset5]} />
         </div>
       </div>
     </div>

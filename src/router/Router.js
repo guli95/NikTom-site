@@ -49,15 +49,13 @@ import SkimmingAgregates from "../pages/skimming-aggregates/SkimmingAgregates";
 import BreakableEuromasz from "../pages/skimming-aggregates/BreakableEuromasz";
 import SnailEuromasz from "../pages/skimming-aggregates/SnailEuromasz";
 import SpringProtector from "../pages/skimming-aggregates/SpringProtector";
-import PinProtectorArmasz from "../pages/skimming-aggregates/PinProtectorArmasz";
-import SnailProtectorArmasz from "../pages/skimming-aggregates/SnailProtectorArmasz.js";
+
 import Krypton from "../pages/skimming-aggregates/Krypton";
 import Arsen from "../pages/skimming-aggregates/Arsen";
 import Cultivator from "../pages/skimming-aggregates/Cultivator";
 import PlowingAggregates from "../pages/plowing-aggregats/PlowingAggregates";
 import PlowingEuroMasz from "../pages/plowing-aggregats/PlowingEuroMasz";
 import TopFoldingEuroMasz from "../pages/plowing-aggregats/TopFoldingEuroMasz";
-import PlowlessArmasz from "../pages/plowing-aggregats/PlowlessArmasz";
 import DeltaTolmet from "../pages/plowing-aggregats/DeltaTolmet";
 import FoldedDeltaTolmet from "../pages/plowing-aggregats/FoldedDeltaTolmet";
 import SingleBeamPlows from "../pages/single-beam-plows/SinglebeamPlows";
@@ -77,13 +75,11 @@ import ChiselTolmet from "../pages/rotary-plows/ChiselTolmet";
 import BreakableEuroMasz from "../pages/subsoilers/BreakabelEuroMasz";
 import Subsoilers from "../pages/subsoilers/Subsoilers";
 import BreakableStrumyk from "../pages/subsoilers/BreakableStrumyk";
-import ShaftlessArmasz from "../pages/subsoilers/ShaftlessArmasz";
-import ShaftfullArmasz from "../pages/subsoilers/ShaftfullArmasz";
+
 import BreakableTolmet from "../pages/subsoilers/BrakableTolmet";
 import MichaelGK from "../pages/subsoilers/MichaelGK";
 import MichaelGS from "../pages/subsoilers/MichaelGS";
-import MichaelBreakable from "../pages/subsoilers/MichaelBreakable";
-import MichaelSpring from "../pages/subsoilers/MichaelSpring";
+
 import MichaelBreakableTolmet from "../pages/subsoilers/MichaelBreakableTolmet";
 import PostRollers from "../pages/post-rollers/PostRollers";
 import SuspendedEuroMasz from "../pages/post-rollers/SuspendedEuroMasz";
@@ -96,7 +92,6 @@ import BuiltUpEuroMasz from "../pages/grain-seeders/BuiltUPEuroMasz";
 import Rakes from "../pages/rakes/Rakes";
 import EuroMaszRake from "../pages/rakes/EuroMaszRake";
 import PromarRake from "../pages/rakes/PromarRake";
-import ArmaszRake from "../pages/rakes/ArmaszRake";
 import TytanStrumyk from "../pages/spreaders/TytanStrumyk";
 import Spreaders from "../pages/spreaders/Spreaders";
 import PaintedPromar from "../pages/spreaders/PaintedPromar";
@@ -349,14 +344,7 @@ const RoutesApp = () => {
             path="/agregaty-podrywkowe/zab-sprezynowe"
             element={<SpringProtector />}
           ></Route>
-          <Route
-            path="/agregaty-podrywkowe/zab-kolkowe-armasz"
-            element={<PinProtectorArmasz />}
-          ></Route>
-          <Route
-            path="/agregaty-podrywkowe/zab-slimakowe-armasz"
-            element={<SnailProtectorArmasz />}
-          ></Route>
+
           <Route
             path="/agregaty-podrywkowe/zab-sprezynowe-armasz"
             element={<SpringProtector />}
@@ -388,10 +376,7 @@ const RoutesApp = () => {
             path="/agregaty-podrywkowo-orkowe/wal-skladany-na-gore-euro-masz"
             element={<TopFoldingEuroMasz />}
           ></Route>
-          <Route
-            path="/agregaty-podrywkowo-orkowe/bezorkowy-armasz"
-            element={<PlowlessArmasz />}
-          ></Route>
+
           <Route
             path="/agregaty-podrywkowo-orkowe/delta-kret-tolmet"
             element={<DeltaTolmet />}
@@ -469,28 +454,14 @@ const RoutesApp = () => {
             path="/glebosze/zab-zrywalne-strumyk"
             element={<BreakableStrumyk />}
           ></Route>
-          <Route
-            path="/glebosze/kret-bez-wal-armasz"
-            element={<ShaftlessArmasz />}
-          ></Route>
-          <Route
-            path="/glebosze/kret-z-walem-armasz"
-            element={<ShaftfullArmasz />}
-          ></Route>
+
           <Route
             path="/glebosze/zab-zrywalne-tolmet"
             element={<BreakableTolmet />}
           ></Route>
           <Route path="/glebosze/michael-gk" element={<MichaelGK />}></Route>
           <Route path="/glebosze/michael-gs" element={<MichaelGS />}></Route>
-          <Route
-            path="/glebosze/michael-zrywalne-armasz"
-            element={<MichaelBreakable />}
-          ></Route>
-          <Route
-            path="/glebosze/michael-sprezynowe-armasz"
-            element={<MichaelSpring />}
-          ></Route>
+
           <Route
             path="/glebosze/michael-zrywalne-tolmet"
             element={<MichaelBreakableTolmet />}
@@ -539,10 +510,7 @@ const RoutesApp = () => {
             path="/zgrabiarki-karuzelowe/promar"
             element={<PromarRake />}
           ></Route>
-          <Route
-            path="/zgrabiarki-karuzelowe/armasz"
-            element={<ArmaszRake />}
-          ></Route>
+
           {
             //rozsiewacze
           }
