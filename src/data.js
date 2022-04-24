@@ -56,11 +56,11 @@ import orchardPromar from "../src/images/13rozsiewacze/ROZSIEWACZ NAWOZU OCYNK P
 import borys1500 from "../src/images/15opryskiwacze-ciagane/Borys 1500/przod borys 1515 zielony.png";
 import borys2000 from "../src/images/15opryskiwacze-ciagane/Borys 2000/przód 2015 borys zielony.png";
 import borys2500 from "../src/images/15opryskiwacze-ciagane/Borys 2500/borys 2518 front.png";
-import borys3000 from "../src/images/15opryskiwacze-ciagane/Borys 3000";
+import borys3000 from "../src/images/15opryskiwacze-ciagane/Borys 3000/Borys 3024 front.png";
 import bruno1200 from "../src/images/15opryskiwacze-ciagane/Bruno 1200/Brono 1200 front.png";
 import bruno1500 from "../src/images/15opryskiwacze-ciagane/Bruno 1500/Bruno 1518 front.png";
-import bruno2000X from "../src/images/15opryskiwacze-ciagane/Bruno 2000 X";
-import bruno2500X from "../src/images/15opryskiwacze-ciagane/Bruno 2500 X";
+import bruno2000X from "../src/images/15opryskiwacze-ciagane/Bruno 2000 X/Bruno 2015 X front.png";
+import bruno2500X from "../src/images/15opryskiwacze-ciagane/Bruno 2500 X/Bruno 2515X front.png";
 import promar2018hu from "../src/images/15opryskiwacze-ciagane/opryskiwacz 2018HU/DSCN2097.JPG";
 import promarDuo10001500 from "../src/images/15opryskiwacze-ciagane/OPRYSKIWACZ SADOWNICZY CIĄGANY PROMAR DUO 1000 i 1500/IMG_20210322_093859.jpg";
 import promarHX from "../src/images/15opryskiwacze-ciagane/opryskiwacze przycz. HX/OPRYSKIWACZE CIĄGANE RĘCZNIE ROZKŁADANE PROMAR/163318395_797571547862606_650432316968348733_n.jpg";
