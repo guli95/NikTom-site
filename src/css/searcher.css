@@ -46,7 +46,7 @@
 
 @media (orientation: portrait) and (max-height: 1200px) and (max-width: 600px) {
   .searcher {
-    width: 120px;
+    width: 140px;
   }
 }
 
@@ -95,12 +95,21 @@
   border: black ridge 1px;
   border-radius: 10px;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .searcher .box img {
   width: 30%;
   overflow: hidden;
   border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .searcher .box img {
+    width: 40%;
+    height: 60%;
+    margin: auto 0;
+  }
 }
 
 .searcher .box p {
@@ -113,5 +122,11 @@
   font-weight: bold;
   word-wrap: break-word;
   white-space: normal;
+}
+
+@media (max-width: 600px) {
+  .searcher .box p {
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=searcher.css.map */

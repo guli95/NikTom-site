@@ -174,6 +174,7 @@ import HydraulicFork from "../pages/equipment/HydraulicFork";
 import Mixer from "../pages/equipment/Mixer";
 import AdapterEuro from "../pages/equipment/AdapterEuro";
 import DeltaTolmetTyre from "../pages/plowing-aggregats/DeltaTolmetTyre";
+import Product from "../pages/Product";
 
 const RoutesApp = () => {
   return (
@@ -182,6 +183,7 @@ const RoutesApp = () => {
         <Routes>
           <Route path="/kontakt" element={<Contact />}></Route>
           <Route path="/" element={<Offer />}></Route>
+          <Route path="/produkt" element={<Product />}></Route>
           {
             //agregaty-uprawowe
           }
@@ -801,7 +803,7 @@ const RoutesApp = () => {
             element={<ForkForgedCrocodileXL />}
           ></Route>
           <Route
-            path="/osprzet//osprzet/szuflo-krokodyl-zab-palony"
+            path="/osprzet/szuflo-krokodyl-zab-palony"
             element={<ForkBurnedCrocodile />}
           ></Route>
           <Route

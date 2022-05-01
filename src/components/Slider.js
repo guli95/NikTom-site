@@ -28,7 +28,7 @@ const Slider = () => {
         <Carousel.Item interval={500}>
           <img
             className="d-block w-100 mx-auto "
-            src={require("../images/slider_2.jpg")}
+            src={require("../images/slider_222.jpg")}
             alt="Second slide"
           />
           <Carousel.Caption>

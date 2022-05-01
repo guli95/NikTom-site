@@ -4,6 +4,8 @@ import euro from "../src/images/logos/euromasz.png";
 import selmar from "../src/images/logos/selmar.png";
 import promar from "../src/images/logos/Promar.jpg";
 import langren from "../src/images/logos/langren.png";
+import atmp from "../src/images/logos/atmp.png";
+import nikTom from "../src/images/logo.jpg";
 import au from "../src/images/1agregaty-uprawowe/AGREGAT PRZEDSIEWNY EURO-MASZ/AU/IMG_9816.jpg";
 import auc from "../src/images/1agregaty-uprawowe/AGREGAT UPRAWOWO PRZEDSIEWNY CIEŻKI EURO-MASZ/kljm (9).jpg";
 import neon from "../src/images/1agregaty-uprawowe/Neon/neon 3 przod.png";
@@ -64,6 +66,11 @@ import bruno2500X from "../src/images/15opryskiwacze-ciagane/Bruno 2500 X/Bruno 
 import promar2018hu from "../src/images/15opryskiwacze-ciagane/opryskiwacz 2018HU/DSCN2097.JPG";
 import promarDuo10001500 from "../src/images/15opryskiwacze-ciagane/OPRYSKIWACZ SADOWNICZY CIĄGANY PROMAR DUO 1000 i 1500/IMG_20210322_093859.jpg";
 import promarHX from "../src/images/15opryskiwacze-ciagane/opryskiwacze przycz. HX/OPRYSKIWACZE CIĄGANE RĘCZNIE ROZKŁADANE PROMAR/163318395_797571547862606_650432316968348733_n.jpg";
+import fuelTank from "../src/images/16zbiorniki-paliwa/ZBIORNIKI PALIWA/270830440_1086964958754071_6022434813285045451_n.jpg";
+
+import spoons from "../src/images/18osprzet/SZUFLE ŁYCHY/IMG_4410.jpg";
+import shovelCrocodilesATMP from "../src/images/18osprzet/SZUFLO-KROKODYL ATMP/IMG_2906.jpg";
+import forkCrocodileATMP from "../src/images/18osprzet/WIDŁO-KROKODYL ATMP/IMG_0442.jpg";
 
 const data = [
   //1agregat uprawowe
@@ -961,22 +968,22 @@ const data = [
   //zbiorniki paliwa
   {
     name: `zbiornik paliwa dwupłaszczowy ON JFC FuelStation 1600/1300l`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: fuelTank,
+    searcherImg: fuelTank,
     route: "/zbiorniki-paliwa/dwuplaszczowy-1600-1300",
     id: 138,
   },
   {
     name: `zbiornik paliwa dwupłaszczowy ON JFC FuelStation 2500l`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: fuelTank,
+    searcherImg: fuelTank,
     route: "/zbiorniki-paliwa/dwuplaszczowy-2500",
     id: 139,
   },
   {
     name: `zbiornik paliwa dwupłaszczowy ON JFC FuelStation 5000l`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: fuelTank,
+    searcherImg: fuelTank,
     route: "/zbiorniki-paliwa/dwuplaszczowy-5000",
     id: 140,
   },
@@ -984,8 +991,8 @@ const data = [
   //włóki polowe
   {
     name: `włóka łąkowo-polowa ATMP`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: atmp,
+    searcherImg: atmp,
     route: "/wloki-polowe/atmp",
     id: 141,
   },
@@ -993,141 +1000,141 @@ const data = [
   //osprzęt
   {
     name: `chwytaki do bel ATMP`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: atmp,
+    searcherImg: atmp,
     route: "/osprzet/chwytak-do-bel",
     id: 142,
   },
   {
     name: `chwytaki do drzewa ATMP`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: atmp,
+    searcherImg: atmp,
     route: "/osprzet/chwytak-do-drzewa",
     id: 143,
   },
   {
     name: `Łycha do wózka widłowego standard`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: spoons,
+    searcherImg: atmp,
     route: "/osprzet/lycha-do-wozka-widlowego-standard",
     id: 144,
   },
   {
     name: `Łycha do wózka widłowego pojemnościowa`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: spoons,
+    searcherImg: atmp,
     route: "/osprzet/lycha-do-wozka-widlowego-pojemnosciowa",
     id: 145,
   },
   {
     name: `Łycha uniwersalna`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: spoons,
+    searcherImg: atmp,
     route: "/osprzet/lycha-uniwersalna",
     id: 146,
   },
   {
     name: `Łycha pojemnościowa`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: spoons,
+    searcherImg: atmp,
     route: "/osprzet/lycha-pojemnosciowa",
     id: 147,
   },
   {
     name: `Widły do obornika`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: atmp,
+    searcherImg: atmp,
     route: "/osprzet/widly-do-obornika",
     id: 148,
   },
   {
     name: `Widło-krokodyl zęby kute 680/880mm`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: forkCrocodileATMP,
+    searcherImg: atmp,
     route: "/osprzet/widlo-krokodyl-680-880",
     id: 149,
   },
   {
     name: `szuflo-krokodyl ząb kuty 680mm`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: shovelCrocodilesATMP,
+    searcherImg: atmp,
     route: "/osprzet/szuflo-krokodyl-kuty",
     id: 150,
   },
   {
     name: `szuflo-krokodyl XL ząb kuty 680mm`,
-    imgUrl: "images/dji-5331597_1280.jpg",
+    imgUrl: shovelCrocodilesATMP,
     searcherImg: "images/logo.jpg",
     route: "/osprzet/szuflo-krokodyl-xl-kuty",
     id: 151,
   },
   {
     name: `szuflo-krokodyl ząb palony`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: shovelCrocodilesATMP,
+    searcherImg: atmp,
     route: "/osprzet/szuflo-krokodyl-zab-palony",
     id: 152,
   },
   {
     name: `szuflo-krokodyl xl ząb palony`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: shovelCrocodilesATMP,
+    searcherImg: atmp,
     route: "/osprzet/szuflo-krokodyl-xl-zab-palony",
     id: 153,
   },
   {
     name: `szuflo-krokodyl max`,
-    imgUrl: "images/dji-5331597_1280.jpg",
+    imgUrl: shovelCrocodilesATMP,
     searcherImg: "images/logo.jpg",
     route: "/osprzet/szuflo-krokodyl-max",
     id: 154,
   },
   {
     name: `szuflo-krokodyl max xl`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: shovelCrocodilesATMP,
+    searcherImg: atmp,
     route: "/osprzet/szuflo-krokodyl-max-xl",
     id: 155,
   },
   {
     name: `widły do palet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: atmp,
+    searcherImg: atmp,
     route: "/osprzet/widly-do-palet",
     id: 156,
   },
   {
     name: `pazur do wideł do palet`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: atmp,
+    searcherImg: atmp,
     route: "/osprzet/pazur-do-widel-do-palet",
     id: 157,
   },
   {
     name: `widły do bel`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: atmp,
+    searcherImg: atmp,
     route: "/osprzet/widly-do-bel",
     id: 157,
   },
   {
     name: `widły hydrauliczne`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: atmp,
+    searcherImg: atmp,
     route: "/osprzet/widly-hydrauliczne",
     id: 158,
   },
   {
     name: `mieszalnik do betonu/paszy`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: atmp,
+    searcherImg: atmp,
     route: "/osprzet/mieszalnik do betonu/paszy",
     id: 159,
   },
   {
     name: `adapter euroramka do wózka widłówego`,
-    imgUrl: "images/dji-5331597_1280.jpg",
-    searcherImg: "images/logo.jpg",
+    imgUrl: atmp,
+    searcherImg: atmp,
     route: "/osprzet/adapter-euroramka",
     id: 160,
   },

@@ -3,8 +3,8 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 import ItemInfo from "../../components/ItemInfo";
 import LightBox from "../../components/Lightbox";
-import asset1 from "../../images/15opryskiwacze-ciagane/Bruno 1200/Brono 1200 front.png";
-import asset2 from "../../images/15opryskiwacze-ciagane/Bruno 1200/Bruno 1200 back.png";
+import asset1 from "../../images/15opryskiwacze-ciagane/Bruno 2000 X/Bruno 2015 X front.png";
+import asset2 from "../../images/15opryskiwacze-ciagane/Bruno 2000 X/Bruno 2015 x back.png";
 import PrizeBtn from "../../components/PrizeBtn";
 import data from "../../data";
 

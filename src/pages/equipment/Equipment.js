@@ -11,12 +11,10 @@ const Equipment = () => (
     <Navigation />
     <div className="item_list">
       {data.map((item) => {
-        // const url= item.url.pop()
         if (item.id >= 142 && item.id <= 160) {
           return (
             <ItemCard
-              // img="../../images/dji-5331597_1280.jpg"
-              img={require(`../../${item.imgUrl}`)}
+              img={item.imgUrl}
               alt={item.name}
               name={item.name}
               link={item.route}

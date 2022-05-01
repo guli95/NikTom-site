@@ -14,7 +14,7 @@ const TrailedSprayers = () => (
         if (item.id >= 99 && item.id <= 137) {
           return (
             <ItemCard
-              img={require(`../../${item.imgUrl}`)}
+              img={item.imgUrl}
               alt={item.name}
               name={item.name}
               link={item.route}

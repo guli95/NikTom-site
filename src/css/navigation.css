@@ -305,6 +305,14 @@
   }
 }
 
+@media (orientation: portrait) and (max-height: 1200px) and (max-width: 340px) {
+  .navi li a {
+    font-size: 7px;
+    margin-left: -15px;
+    padding: 5px;
+  }
+}
+
 .navi li a:hover {
   background-color: #e30713;
   color: #fff;

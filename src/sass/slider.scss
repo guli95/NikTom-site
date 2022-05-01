@@ -4,101 +4,28 @@
     width: 100%;
     z-index: -2;
     margin: 0 auto 2vh auto;
-    @media (max-width:1500px) {
-      height: 50vh;
-    }
-    @media (max-width:1280px) {
-      height: 60vh;
-    }
-    @media (max-width:1100px) {
-      height: 55vh;
-    }
-    @media (max-width:920px) {
-      height: 45vh;
-    }
-    @media (max-width:800px) {
-      height: 35vh;
-    }
-    @media (max-width:620px) {
-      height: 30vh;
-    }
-    @media (orientation: landscape) and (max-height:480px) {
-      height: 32vw;
-    }
-    @media (orientation: landscape) and (max-height:400px) {
-      height: 35vw;
-    }
-    @media (orientation: portrait) and (max-height:1200px) and (max-width:900px) {
-      height: 27vh;
-    }
-    @media (orientation: portrait) and (max-height:1200px) and (max-width:600px) {
-      height: 25vh;
-    }
-    @media (orientation: portrait) and (max-height:1000px) and (max-width:600px) {
-      height: 19vh;
-    }
-    @media (orientation: portrait) and (max-height:800px) and (max-width:600px) {
-      height: 22vh;
-    }
- 
     .carousel{
-        .slider-btn{
+       button.slider-btn{
           @media (max-width:800px) {
            font-size: 16px;
           }
-          @media (max-width:680px), (max-height:350px) {
+          @media (max-width:680px) {
             font-size: 12px;
            }
-           @media (max-width:480px), (max-height:250px) {
+           @media (max-width:480px){
             font-size: 10px;
            }
-           @media  (max-width:340px), (max-height:200px) {
+           @media  (max-width:340px) {
             font-size: 8px;
           }
-          @media (max-width:310px), (max-height:100px) {
+          @media (max-width:310px) {
             font-size: 7px;
           }
         }
         .carousel-inner{
             height: 65vh;
             width: 100%;
-            @media (max-width:1500px) {
-              height: 62vh;
-            }
-            @media (max-width:1280px) {
-              height: 60vh;
-            }
-            @media (max-width:1100px) {
-              height: 55vh;
-            }
-            @media (max-width:920px) {
-              height: 45vh;
-            }
-            @media (max-width:800px) {
-              height: 35vh;
-            }
-            @media (max-width:620px) {
-              height: 30vh;
-            }
-           
-            @media (orientation: landscape) and (max-height:480px) and (max-width:600px) {
-              height: 32vw;
-            }
-            @media (orientation: landscape) and (max-height:400px) {
-              height: 35vw;
-            }
-            @media (orientation: portrait) and (max-height:1200px) and (max-width:900px) {
-              height: 27vh;
-            }
-            @media (orientation: portrait) and (max-height:1200px) and (max-width:600px) {
-              height: 25vh;
-            }
-            @media (orientation: portrait) and (max-height:1000px) and (max-width:600px) {
-              height: 19vh;
-            }
-            @media (orientation: portrait) and (max-height:800px) and (max-width:600px) {
-              height: 22vh;
-            }
+            
         
         }
     }
@@ -108,9 +35,127 @@
         width: 100%;
         }
   img{
-    object-fit:cover;
+    object-fit:contain;
     margin: auto;
   }
         
          
     }
+
+    @media (max-width:1500px) {
+      .slider{height: 50vh;
+        .carousel{
+        .carousel-inner{
+            height: 50vh;
+          }
+      }
+    }
+  }
+    @media (max-width:1280px) {
+     .slider{ height: 72vh;
+      .carousel{.carousel-inner{
+        height: 62vh;
+      }
+    }}
+    }
+    @media (max-width:1100px) {
+      .slider{height: 62vh;
+        .carousel{
+        .carousel-inner{
+          height: 50vh;
+        }
+      }
+    }
+  }
+    @media (max-width:920px) {
+     .slider{ height: 60vh;
+      .carousel{
+      .carousel-inner{
+        height: 48vh;
+      }
+    }
+    }
+    }
+    @media (max-width:800px) {
+      .slider{height: 45vh;
+        .carousel{ 
+          .slider-btn{
+
+           font-size: 16px;
+          }
+          .carousel-inner{
+            height: 40vh;}
+        }}
+    }
+    @media (max-width:620px) {
+      .slider{height: 32vh;
+        .carousel{
+        .carousel-inner{
+          height: 32vh;
+        }}
+      }
+    }
+    @media (orientation: landscape) and (max-height:480px) {
+      .slider{height: 32vw;
+        .carousel{
+        .carousel-inner{
+          height: 32vw;
+        }
+      }
+      }
+    }
+    @media (orientation: landscape) and (max-height:400px) {
+     .slider{height: 35vw;
+      .carousel{
+      .carousel-inner{
+        height: 35vw;
+      }
+    }
+  }
+    }
+    @media (orientation: portrait) and (max-height:1200px) and (max-width:900px) {
+      .slider{height: 32vh;
+        .carousel{
+        .carousel-inner{
+          height: 32vh;
+        }
+      }
+      }
+    }
+  //   @media (orientation: portrait) and (max-height:1200px) and (max-width:600px) {
+  //     .slider{height: 33vh;
+  //       .carousel{
+  //       .carousel-inner{
+  //         height: 25vh;
+  //       }
+  //     }
+  //   }
+  // }
+    @media (orientation: portrait) and (max-height:1000px) and (max-width:600px) {
+      .slider{height: 21vh;
+        .carousel{
+        .carousel-inner{
+          height: 19vh;
+        }
+      }
+      }
+    }
+    @media (orientation: portrait) and (max-height:800px) and (max-width:600px) {
+      .slider{height: 30vh;
+        .carousel{
+        .carousel-inner{
+          height: 30vh;
+        }
+      }
+    }
+    @media (orientation: portrait) and (max-height:800px) and (max-width:350px) {
+      .slider{height: 22vh;
+        .carousel{
+        .carousel-inner{
+          height: 21vh;
+        }
+      }
+    }
+    }
+  }
+ 

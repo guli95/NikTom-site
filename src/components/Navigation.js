@@ -1,14 +1,7 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams,
   NavLink,
 } from "react-router-dom";
-import "../css/navigation.css";
 import Searcher from "./Searcher";
 
 const Navigation = () => (
