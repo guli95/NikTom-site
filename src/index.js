@@ -4,7 +4,6 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./css/reset.css";
-import "./css/bgc.css";
 
 ReactDOM.render(
   <React.StrictMode>
