@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NikTom-site/static/css/main.1fed6e7a.css",
-    "main.js": "/NikTom-site/static/js/main.1cd60f95.js",
+    "main.css": "/NikTom-site/static/css/main.7bdb91de.css",
+    "main.js": "/NikTom-site/static/js/main.1a18bced.js",
     "static/js/787.71d75aa7.chunk.js": "/NikTom-site/static/js/787.71d75aa7.chunk.js",
     "static/media/astat 3 2020.png": "/NikTom-site/static/media/astat 3 2020.8a97d1041e8cc210a335.png",
     "static/media/IMG_0373.png": "/NikTom-site/static/media/IMG_0373.8411896f74e44cdfcabc.png",
@@ -308,15 +308,14 @@
     "static/media/logo.jpg": "/NikTom-site/static/media/logo.32b7efb8cb43bbf80254.jpg",
     "static/media/flower-g62811d005_640.jpg": "/NikTom-site/static/media/flower-g62811d005_640.06c9e4bd1c5a26b2f271.jpg",
     "static/media/logo2.png": "/NikTom-site/static/media/logo2.27f60ab7c07d759ed694.png",
-    "static/media/main.css.map": "/NikTom-site/static/media/main.css.c9cebf6dfbd031e4c44c.map",
     "static/media/logo3.jpg": "/NikTom-site/static/media/logo3.a23448dd9f79e4c82623.jpg",
+    "static/media/main.css.map": "/NikTom-site/static/media/main.css.f534fa5d5e67a75423c8.map",
     "static/media/euromasz3.png": "/NikTom-site/static/media/euromasz3.ca36dee4fb7fb7241e9f.png",
     "static/media/euromasz.png": "/NikTom-site/static/media/euromasz.4b4da60c30f77c77463c.png",
     "static/media/facebook.png": "/NikTom-site/static/media/facebook.76dec58ca80f4690922b.png",
     "static/media/phone.png": "/NikTom-site/static/media/phone.9e3aee04ba313d205205.png",
     "static/media/email.png": "/NikTom-site/static/media/email.7440c01cc92926acca62.png",
-    "static/media/product_site.css.map": "/NikTom-site/static/media/product_site.css.65e3f2bb2b864ccf6914.map",
-    "static/media/app.css.map": "/NikTom-site/static/media/app.css.15deb6ec4192d37df23e.map",
+    "static/media/product_site.css.map": "/NikTom-site/static/media/product_site.css.1ee359a8ce7a29209886.map",
     "static/media/navigation.css.map": "/NikTom-site/static/media/navigation.css.55baa30730fa5c46bb35.map",
     "static/media/contact_page.css.map": "/NikTom-site/static/media/contact_page.css.a6af72d034f24b8e52f7.map",
     "static/media/footer.css.map": "/NikTom-site/static/media/footer.css.404e7a06ef6f40437e43.map",
@@ -326,20 +325,18 @@
     "static/media/searcher.css.map": "/NikTom-site/static/media/searcher.css.0d173980fe79c901c041.map",
     "static/media/item_card.css.map": "/NikTom-site/static/media/item_card.css.d70e40e242ed4ba01c16.map",
     "static/media/default-skin.svg": "/NikTom-site/static/media/default-skin.f64c3af3d0d25b9e4e00.svg",
-    "static/media/navi.css.map": "/NikTom-site/static/media/navi.css.db39084b33c448bf18b1.map",
     "static/media/item_list.css.map": "/NikTom-site/static/media/item_list.css.6a4b79e1bb885d39f1a0.map",
     "static/media/reset.css.map": "/NikTom-site/static/media/reset.css.6a3b600a8dcccedaf4ee.map",
     "index.html": "/NikTom-site/index.html",
     "static/media/lightbox.css.map": "/NikTom-site/static/media/lightbox.css.0aedd39ac8e48563347e.map",
     "static/media/item_page.css.map": "/NikTom-site/static/media/item_page.css.835a71ce7269d4c52cda.map",
     "static/media/variables.css.map": "/NikTom-site/static/media/variables.css.5ee1819b7a65d6922448.map",
-    "static/media/bgc.css.map": "/NikTom-site/static/media/bgc.css.e7275ce191066cc5b7ea.map",
-    "main.1fed6e7a.css.map": "/NikTom-site/static/css/main.1fed6e7a.css.map",
-    "main.1cd60f95.js.map": "/NikTom-site/static/js/main.1cd60f95.js.map",
+    "main.7bdb91de.css.map": "/NikTom-site/static/css/main.7bdb91de.css.map",
+    "main.1a18bced.js.map": "/NikTom-site/static/js/main.1a18bced.js.map",
     "787.71d75aa7.chunk.js.map": "/NikTom-site/static/js/787.71d75aa7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fed6e7a.css",
-    "static/js/main.1cd60f95.js"
+    "static/css/main.7bdb91de.css",
+    "static/js/main.1a18bced.js"
   ]
 }
