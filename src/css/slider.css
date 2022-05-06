@@ -54,37 +54,37 @@
 
 @media (max-width: 1500px) {
   .slider {
-    height: 50vh;
+    height: 55vh;
   }
   .slider .carousel .carousel-inner {
-    height: 50vh;
+    height: 55vh;
   }
 }
 
 @media (max-width: 1280px) {
   .slider {
-    height: 72vh;
+    height: 65vh;
   }
   .slider .carousel .carousel-inner {
-    height: 62vh;
+    height: 60vh;
   }
 }
 
 @media (max-width: 1100px) {
   .slider {
-    height: 62vh;
-  }
-  .slider .carousel .carousel-inner {
-    height: 50vh;
-  }
-}
-
-@media (max-width: 920px) {
-  .slider {
     height: 60vh;
   }
   .slider .carousel .carousel-inner {
-    height: 48vh;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 960px) {
+  .slider {
+    height: 55vh;
+  }
+  .slider .carousel .carousel-inner {
+    height: 45vh;
   }
 }
 
@@ -132,7 +132,7 @@
     height: 32vh;
   }
   .slider .carousel .carousel-inner {
-    height: 32vh;
+    height: 28vh;
   }
 }
 
@@ -141,7 +141,7 @@
     height: 21vh;
   }
   .slider .carousel .carousel-inner {
-    height: 19vh;
+    height: 20vh;
   }
 }
 
@@ -154,12 +154,12 @@
   }
 }
 
-@media (orientation: portrait) and (max-height: 800px) and (max-width: 600px) and (orientation: portrait) and (max-height: 800px) and (max-width: 350px) {
+@media (orientation: portrait) and (max-height: 800px) and (max-width: 400px) {
   .slider {
     height: 22vh;
   }
   .slider .carousel .carousel-inner {
-    height: 21vh;
+    height: 25vh;
   }
 }
 /*# sourceMappingURL=slider.css.map */

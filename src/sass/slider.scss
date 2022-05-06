@@ -43,35 +43,35 @@
     }
 
     @media (max-width:1500px) {
-      .slider{height: 50vh;
+      .slider{height: 55vh;
         .carousel{
         .carousel-inner{
-            height: 50vh;
+            height: 55vh;
           }
       }
     }
   }
     @media (max-width:1280px) {
-     .slider{ height: 72vh;
+     .slider{ height: 65vh;
       .carousel{.carousel-inner{
-        height: 62vh;
+        height: 60vh;
       }
     }}
     }
     @media (max-width:1100px) {
-      .slider{height: 62vh;
+      .slider{height: 60vh;
         .carousel{
         .carousel-inner{
-          height: 50vh;
+          height: 60vh;
         }
       }
     }
   }
-    @media (max-width:920px) {
-     .slider{ height: 60vh;
+    @media (max-width:960px) {
+     .slider{ height: 55vh;
       .carousel{
       .carousel-inner{
-        height: 48vh;
+        height: 45vh;
       }
     }
     }
@@ -117,7 +117,7 @@
       .slider{height: 32vh;
         .carousel{
         .carousel-inner{
-          height: 32vh;
+          height: 28vh;
         }
       }
       }
@@ -135,7 +135,7 @@
       .slider{height: 21vh;
         .carousel{
         .carousel-inner{
-          height: 19vh;
+          height: 20vh;
         }
       }
       }
@@ -148,14 +148,15 @@
         }
       }
     }
-    @media (orientation: portrait) and (max-height:800px) and (max-width:350px) {
+  }
+    @media (orientation: portrait) and (max-height:800px) and (max-width:400px) {
       .slider{height: 22vh;
         .carousel{
         .carousel-inner{
-          height: 21vh;
+          height: 25vh;
         }
       }
     }
     }
-  }
+  
  

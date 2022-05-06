@@ -108,6 +108,13 @@
   }
 }
 
+@media (max-width: 800px) {
+  .navi .navi-item ul li {
+    -ms-flex-preferred-size: 55%;
+        flex-basis: 55%;
+  }
+}
+
 .navi .navi-logo-container {
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
