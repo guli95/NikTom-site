@@ -13,13 +13,13 @@ import img10 from "../images/10waly posiewne/WAŁ POSIEWNY ZAWIESZANY EURO-MASZ/
 import img11 from "../images/11siewniki-zbozowe/SIEWNIK NADBUDOWANY Z AGREGATEM EURO-MASZ/siewnoik-rzedowy-nabudowany-euromasz-05.jpg";
 import img12 from "../images/12zgrabiarki-karuzelowe/ZGRABIARKA KARUZELOWA EURO-MASZ/161072160_445366863346339_2726573925929161262_n.jpg";
 import img13 from "../images/13rozsiewacze/ROZSIEWACZ DWUTARCZOWY STRUMYK/STRUMYK ROZSIEWACZ/IMG_9726.jpg";
-import img14 from "../images/10waly posiewne/WAŁ POSIEWNY ZAWIESZANY EURO-MASZ/257526590_7180850261941261_8818920371837196255_n.jpg";
+import img14 from "../images/14opryskiwacze-zawieszane/Opryskiwacz zawieszany 815/[UYTR76WSARYdgCBVVLGIOIR7E6SRYDX (1).jpg";
 import img15 from "../images/15opryskiwacze-ciagane/Borys 1500/przod borys 1515 zielony.png";
 import img16 from "../images/16zbiorniki-paliwa/ZBIORNIKI PALIWA/270225899_1916448248546381_3771377480391690051_n.jpg";
 import img17 from "../images/10waly posiewne/WAŁ POSIEWNY ZAWIESZANY EURO-MASZ/257526590_7180850261941261_8818920371837196255_n.jpg";
 import img18 from "../images/18osprzet/SZUFLO-KROKODYL ATMP/IMG_2906.jpg";
 import img19 from "../images/10waly posiewne/WAŁ POSIEWNY ZAWIESZANY EURO-MASZ/257526590_7180850261941261_8818920371837196255_n.jpg";
-import img20 from "../images/10waly posiewne/WAŁ POSIEWNY ZAWIESZANY EURO-MASZ/257526590_7180850261941261_8818920371837196255_n.jpg";
+
 const ItemList = () => (
   <div className="item_list" id="offer">
     <ItemCard
@@ -121,12 +121,6 @@ const ItemList = () => (
     />
     <ItemCard img={img18} alt="osprzęt" name="osprzęt" link="osprzet" />
     <ItemCard img={img19} alt="pozostałe" name="pozostałe" link="pozostale" />
-    <ItemCard
-      img={img20}
-      alt="siewniki poplonów"
-      name="siewniki poplonów"
-      link="siewniki-poplonow"
-    />
   </div>
 );
 

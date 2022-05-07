@@ -71,7 +71,14 @@ import fuelTank from "../src/images/16zbiorniki-paliwa/ZBIORNIKI PALIWA/27083044
 import spoons from "../src/images/18osprzet/SZUFLE ŁYCHY/IMG_4410.jpg";
 import shovelCrocodilesATMP from "../src/images/18osprzet/SZUFLO-KROKODYL ATMP/IMG_2906.jpg";
 import forkCrocodileATMP from "../src/images/18osprzet/WIDŁO-KROKODYL ATMP/IMG_0442.jpg";
-
+import klara200 from "../src/images/14opryskiwacze-zawieszane/Klara 200/Klara 206 front.png";
+import klara300 from "../src/images/14opryskiwacze-zawieszane/Klara 300/Klara 310 front.png";
+import klara400 from "../src/images/14opryskiwacze-zawieszane/Klara 400/Klara 412 Front.png";
+import klara600 from "../src/images/14opryskiwacze-zawieszane/Klara 600/Klara 600 front.png";
+import klara800 from "../src/images/14opryskiwacze-zawieszane/Klara 800/Klara 815 front.png";
+import klara1000 from "../src/images/14opryskiwacze-zawieszane/Klara 1000/Klara 1015 front.png";
+import klara1200 from "../src/images/14opryskiwacze-zawieszane/Klara 1200/Klara 1215 front.png";
+import promarStandardMountedSprayers from "../src/images/14opryskiwacze-zawieszane/Opryskiwacz zawieszany 815/[UYTR76WSARYdgCBVVLGIOIR7E6SRYDX (1).jpg";
 const data = [
   //1agregat uprawowe
   {
@@ -1137,6 +1144,77 @@ const data = [
     searcherImg: atmp,
     route: "/osprzet/adapter-euroramka",
     id: 160,
+  },
+  //Opryskiwacze zawieszane
+  {
+    name: `Opryskiwacz zawieszany Klara200 Tolmet`,
+    imgUrl: klara200,
+    searcherImg: tolmet,
+    route: "/opryskiwacze-zawieszane/klara-200-tolmet",
+    id: 161,
+  },
+  {
+    name: `Opryskiwacz zawieszany Klara300 Tolmet`,
+    imgUrl: klara300,
+    searcherImg: tolmet,
+    route: "/opryskiwacze-zawieszane/klara-300-tolmet",
+    id: 162,
+  },
+  {
+    name: `Opryskiwacz zawieszany Klara400 Tolmet`,
+    imgUrl: klara400,
+    searcherImg: tolmet,
+    route: "/opryskiwacze-zawieszane/klara-400-tolmet",
+    id: 163,
+  },
+  {
+    name: `Opryskiwacz zawieszany Klara600 Tolmet`,
+    imgUrl: klara600,
+    searcherImg: tolmet,
+    route: "/opryskiwacze-zawieszane/klara-600-tolmet",
+    id: 164,
+  },
+  {
+    name: `Opryskiwacz zawieszany Klara800 Tolmet`,
+    imgUrl: klara800,
+    searcherImg: tolmet,
+    route: "/opryskiwacze-zawieszane/klara-800-tolmet",
+    id: 165,
+  },
+  {
+    name: `Opryskiwacz zawieszany Klara1000 Tolmet`,
+    imgUrl: klara1000,
+    searcherImg: tolmet,
+    route: "/opryskiwacze-zawieszane/klara-1000-tolmet",
+    id: 166,
+  },
+  {
+    name: `Opryskiwacz zawieszany Klara1200 Tolmet`,
+    imgUrl: klara1200,
+    searcherImg: tolmet,
+    route: "/opryskiwacze-zawieszane/klara-1200-tolmet",
+    id: 167,
+  },
+  {
+    name: `Opryskiwacz zawieszany Promar 300/400l`,
+    imgUrl: promarStandardMountedSprayers,
+    searcherImg: promar,
+    route: "/opryskiwacze-zawieszane/promar300",
+    id: 168,
+  },
+  {
+    name: `Opryskiwacz zawieszany Promar 600/800l`,
+    imgUrl: promarStandardMountedSprayers,
+    searcherImg: promar,
+    route: "/opryskiwacze-zawieszane/promar600",
+    id: 169,
+  },
+  {
+    name: `Opryskiwacz zawieszany Promar 1000/1200l`,
+    imgUrl: promarStandardMountedSprayers,
+    searcherImg: promar,
+    route: "/opryskiwacze-zawieszane/promar1000",
+    id: 170,
   },
 ];
 export default data;

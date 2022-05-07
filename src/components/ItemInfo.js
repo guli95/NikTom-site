@@ -2,7 +2,7 @@ import React from "react";
 import { Table } from "react-bootstrap";
 
 const ItemInfo = (props) => (
-  <Table hover striped bordered variant="dark">
+  <Table hover striped bordered variant="dark" className="table-info">
     <tbody>
       {props.raw1 ? (
         <tr>

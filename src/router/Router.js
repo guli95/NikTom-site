@@ -175,6 +175,16 @@ import Mixer from "../pages/equipment/Mixer";
 import AdapterEuro from "../pages/equipment/AdapterEuro";
 import DeltaTolmetTyre from "../pages/plowing-aggregats/DeltaTolmetTyre";
 import Product from "../pages/Product";
+import Klara200 from "../pages/mounted-sprayers/Klara200";
+import Klara300 from "../pages/mounted-sprayers/Klara300";
+import Klara400 from "../pages/mounted-sprayers/Klara400";
+import Klara600 from "../pages/mounted-sprayers/Klara600";
+import Klara800 from "../pages/mounted-sprayers/Klara800";
+import Klara1000 from "../pages/mounted-sprayers/Klara1000";
+import Klara1200 from "../pages/mounted-sprayers/Klara1200";
+import Promar300 from "../pages/mounted-sprayers/Promar300";
+import Promar600 from "../pages/mounted-sprayers/Promar600";
+import Promar1000 from "../pages/mounted-sprayers/Promar1000";
 
 const RoutesApp = () => {
   return (
@@ -841,6 +851,53 @@ const RoutesApp = () => {
           <Route
             path="/osprzet/adapter-euroramka"
             element={<AdapterEuro />}
+          ></Route>
+          {
+            //Opryskiwacze zawieszane
+          }
+          <Route
+            path="/opryskiwacze-zawieszane"
+            element={<MountedSprayers />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/klara-200-tolmet"
+            element={<Klara200 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/klara-300-tolmet"
+            element={<Klara300 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/klara-400-tolmet"
+            element={<Klara400 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/klara-600-tolmet"
+            element={<Klara600 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/klara-800-tolmet"
+            element={<Klara800 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/klara-1000-tolmet"
+            element={<Klara1000 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/klara-1200-tolmet"
+            element={<Klara1200 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/promar300"
+            element={<Promar300 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/promar600"
+            element={<Promar600 />}
+          ></Route>
+          <Route
+            path="/opryskiwacze-zawieszane/promar1000"
+            element={<Promar1000 />}
           ></Route>
         </Routes>
       </ScrollToTop>
