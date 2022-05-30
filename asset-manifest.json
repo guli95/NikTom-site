@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NikTom-site/static/css/main.48de2f68.css",
-    "main.js": "/NikTom-site/static/js/main.77426037.js",
+    "main.js": "/NikTom-site/static/js/main.b39a29e8.js",
     "static/js/787.71d75aa7.chunk.js": "/NikTom-site/static/js/787.71d75aa7.chunk.js",
     "static/media/astat 3 2020.png": "/NikTom-site/static/media/astat 3 2020.8a97d1041e8cc210a335.png",
     "static/media/IMG_0373.png": "/NikTom-site/static/media/IMG_0373.8411896f74e44cdfcabc.png",
@@ -389,11 +389,11 @@
     "static/media/item_page.css.map": "/NikTom-site/static/media/item_page.css.835a71ce7269d4c52cda.map",
     "static/media/variables.css.map": "/NikTom-site/static/media/variables.css.5ee1819b7a65d6922448.map",
     "main.48de2f68.css.map": "/NikTom-site/static/css/main.48de2f68.css.map",
-    "main.77426037.js.map": "/NikTom-site/static/js/main.77426037.js.map",
+    "main.b39a29e8.js.map": "/NikTom-site/static/js/main.b39a29e8.js.map",
     "787.71d75aa7.chunk.js.map": "/NikTom-site/static/js/787.71d75aa7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48de2f68.css",
-    "static/js/main.77426037.js"
+    "static/js/main.b39a29e8.js"
   ]
 }
