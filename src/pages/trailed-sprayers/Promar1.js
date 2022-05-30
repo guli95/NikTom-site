@@ -35,49 +35,39 @@ const Promar1 = () => (
             </span>
           </li>
           <li>
-            <span>
-              Zaczep obrotowo - skrętny kopiujący ślady ciągnika na uwrociach
-            </span>
+            <span>Zaczep skrętny</span>
+          </li>
+          <li>
+            <span>Zawó stałociśnieniowy TOLMET</span>
           </li>
           <li>
             <span>
-              Pompa włoskiej produkcji UDOR o wydajności 140 l/min zapewnia
-              odpowiednią wydajność
+              Pompa włoskiej produkcji UDOR o wydajności 140 l/min(do belki 18m
+              170l/min) zapewnia odpowiednią wydajność
             </span>
           </li>
           <li>
             <span>Stabilizacja mechaniczna belki polowej</span>
           </li>
-          <li>
-            <span>
-              Mieszadła hydrauliczne (2 szt) zapewniają utrzymanie jednakowego
-              stężenia cieczy roboczej
-            </span>
-          </li>
-          <li>
-            <span>Czterostopniowy system filtracji cieczy roboczej</span>
-          </li>
+
           <li>
             <span>Rozwadniacz środków chemicznych w sicie wlewowym</span>
           </li>
           <li>
             <span>Koła 7,5x20</span>
           </li>
-          <li>
-            <span>Manualny rozdzielacz sześciosekcyjny </span>
-          </li>
-          <li>
-            <span>Wał przegubowo-teleskopowy (WOM)</span>
-          </li>
+
           <li>
             <span>Dodatkowy zbiorniczek (10l) na czystą wodę do mycia rąk</span>
           </li>
           <li>
             <span>
-              Rama opryskiwacza ocynkowana ogniowo. Belka oczyszczona w procesie
-              śrutowania następnie malowana proszkowo co zapewnia najlepsze
-              zabezpieczenie antykorozyjne
+              Belka oczyszczona w procesie śrutowania następnie malowana
+              proszkowo co zapewnia najlepsze zabezpieczenie antykorozyjne
             </span>
+          </li>
+          <li>
+            <span>Rozkłądanie ręczne</span>
           </li>
         </ul>
         <ul>
@@ -118,9 +108,7 @@ const Promar1 = () => (
           <li>
             <span>Komputer BRAVO 300 S</span>
           </li>
-          <li>
-            <span>Komputer BRAVO 400 z nawigacją</span>
-          </li>
+
           <li>
             <span>Rozwadniacz boczny zwykły lub włoski POLMAC</span>
           </li>
@@ -136,6 +124,14 @@ const Promar1 = () => (
           <li>
             <span>Oświetlenie drogowe</span>
           </li>
+          <li>
+            <span>Zawór włoski ARAG stałociśnieniowy 5-sekcyjny</span>
+          </li>
+          <li>
+            <span>
+              Zawór stałociśnieniowy ARAG 5-sekcyjny z elektrozaworami
+            </span>
+          </li>
         </ul>
       </div>
       <div className="box">
@@ -145,11 +141,11 @@ const Promar1 = () => (
           colNumber={2}
           raw1={["Pojemność zbiornika (l) ", "1200"]}
           raw2={["Typ zbiornika", "żywiczny"]}
-          raw3={["Szerokość belki [m]", "12 lub 15"]}
+          raw3={["Szerokość belki [m]", "12 lub 15 lub 18"]}
           raw4={["Liczba sekcji roboczych [szt]", "5"]}
           raw5={["Głowice", "pojedyncze z zaworkiem przeciwkroplowym"]}
           raw6={["Rozpylacze", "szczelinowe Agroplast"]}
-          raw7={["Pompa", "UDOR 140 l/min"]}
+          raw7={["Pompa", "UDOR 140 l/min lub 170l/min"]}
           raw8={["Zawór", "manualny"]}
           raw9={["Waga [kg]", "750"]}
         />
