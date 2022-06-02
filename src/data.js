@@ -150,7 +150,7 @@ const data = [
 
   //agregaty uprawowe z hydropakiem
   {
-    name: `agregat talerzowy z hydropakiem Euro-Masz`,
+    name: `agregat talerzowy z hydropakiem Euro-Masz model AT`,
     imgUrl: discEuroAgregate,
     searcherImg: euro,
     route: "/agregaty-uprawowe-hydropak/talerz-euro",
@@ -244,21 +244,21 @@ const data = [
     id: 27,
   },
   {
-    name: `brona talerzowa pół zawieszana(btp) Euro-masz`,
+    name: `brona talerzowa półzawieszana (BTP) Euro-masz`,
     imgUrl: euro,
     searcherImg: euro,
     route: "/brony-talerzowe/pol-zawieszana-euro-masz",
     id: 28,
   },
   {
-    name: `brona talerzowa ciężka hydraulicznie rozkładana(BTCH)Euro-masz`,
+    name: `brona talerzowa ciężka hydraulicznie składana (BTCH) Euro-masz`,
     imgUrl: BTC,
     searcherImg: euro,
     route: "/brony-talerzowe/hydraulicznie-rozkladana-euro-masz",
     id: 29,
   },
   {
-    name: `brona talerzowa ciężka zab. sprężynowe(BTCS)Euro-masz`,
+    name: `brona talerzowa ciężka zab. sprężynowe (BTCS) Euro-masz`,
     imgUrl: euro,
     searcherImg: euro,
     route: "/brony-talerzowe/zab-sprezynowe-euro-masz",
@@ -307,13 +307,7 @@ const data = [
     route: "/brony-talerzowe/kompaktowa-megatron-tolmet",
     id: 38,
   },
-  {
-    name: `brona kompaktowa hydraulicznie składana "megatron" XL tolmet`,
-    imgUrl: megatronUT,
-    searcherImg: tolmet,
-    route: "/brony-talerzowe/kompaktowa-megatron-xl-tolmet",
-    id: 40,
-  },
+
   {
     name: `brona kompaktowa "tenes" tolmet`,
     imgUrl: tenes,
@@ -331,21 +325,21 @@ const data = [
 
   //5. agregaty podrywkowe grubery
   {
-    name: `Agregat podrywkowy "gruber" zab zrywalne Euro-masz`,
+    name: `Agregat podorywkowy "gruber" zab zrywalne Euro-masz`,
     imgUrl: euro,
     searcherImg: euro,
     route: "/agregaty-podrywkowe/zab-zrywalne-euro-masz",
     id: 43,
   },
   {
-    name: `Agregat podrywkowy "gruber" zab ślimakowe Euro-masz`,
+    name: `Agregat podorywkowy "gruber" zab ślimakowe Euro-masz`,
     imgUrl: snailAggregateEuro,
     searcherImg: euro,
     route: "/agregaty-podrywkowe/zab-slimakowe-euro-masz",
     id: 44,
   },
   {
-    name: `Agregat podrywkowy "gruber" zab sprężynowe Euro-masz`,
+    name: `Agregat podorywkowy "gruber" zab sprężynowe Euro-masz`,
     imgUrl: springAgrregateEuro,
     searcherImg: euro,
     route: "/agregaty-podrywkowe/zab-sprezynowe",
@@ -353,14 +347,14 @@ const data = [
   },
 
   {
-    name: `Agregat podrywkowy "krypton" Tolmet`,
+    name: `Agregat podorywkowy "krypton" Tolmet`,
     imgUrl: krypton,
     searcherImg: tolmet,
     route: "/agregaty-podrywkowe/krypton-tolmet",
     id: 49,
   },
   {
-    name: `Agregat podrywkowy "arsen" Tolmet`,
+    name: `Agregat podorywkowy "arsen" Tolmet`,
     imgUrl: arsen,
     searcherImg: tolmet,
     route: "/agregaty-podrywkowe/arsen-tolmet",
@@ -376,14 +370,14 @@ const data = [
 
   //6. agregaty podrywkowo - orkowe
   {
-    name: `Agregat podrywkowo-orkowy/bezorkowy Euro-masz`,
+    name: `Agregat podorywkowo-orkowy/bezorkowy Euro-masz`,
     imgUrl: euro,
     searcherImg: euro,
     route: "/agregaty-podrywkowo-orkowe/bezorkowy-euro-masz",
     id: 52,
   },
   {
-    name: `Agregat podrywkowo-orkowy/bezorkowy wał składany na górę agregatu Euro-masz`,
+    name: `Agregat podorywkowo-orkowy/bezorkowy wał składany na górę agregatu Euro-masz`,
     imgUrl: euro,
     searcherImg: euro,
     route: "/agregaty-podrywkowo-orkowe/wal-skladany-na-gore-euro-masz",
@@ -439,7 +433,7 @@ const data = [
     imgUrl: PJ18,
     searcherImg: euro,
     route: "/plugi-jednobelkowe-zagonowe/18-pj-euro-masz",
-    id: 600,
+    id: 60,
   },
   {
     name: `pług jednobelkowy (PJR) zab resorowe Euro-masz`,
@@ -451,7 +445,7 @@ const data = [
 
   //8.pługi obrotowe
   {
-    name: `pług obrotowy "atlas" 16 typ lekki rama podwojna zab kolkowe Euro-Masz`,
+    name: `pług obrotowy "atlas" zab kołkowe Euro-Masz`,
     imgUrl: atlasPlow,
     searcherImg: euro,
     route: "/plugi-obrotowe/atlas",
@@ -479,7 +473,7 @@ const data = [
     id: 65,
   },
   {
-    name: `pług obrotowy zab resorowe (POR) 184`,
+    name: `pług obrotowy zab resorowe (POR) Euro-Masz`,
     imgUrl: euro,
     searcherImg: euro,
     route: "/plugi-obrotowe/por-184",
@@ -493,7 +487,7 @@ const data = [
     id: 67,
   },
   {
-    name: `pług dłutowy tolmet`,
+    name: `pług dłutowy RAPTOR tolmet`,
     imgUrl: tolmet,
     searcherImg: tolmet,
     route: "/plugi-obrotowe/dlutowy-tolmet",
@@ -1148,49 +1142,49 @@ const data = [
   },
   //Opryskiwacze zawieszane
   {
-    name: `Opryskiwacz zawieszany Klara200 Tolmet`,
+    name: `Opryskiwacz zawieszany Klara 200 Tolmet`,
     imgUrl: klara200,
     searcherImg: tolmet,
     route: "/opryskiwacze-zawieszane/klara-200-tolmet",
     id: 161,
   },
   {
-    name: `Opryskiwacz zawieszany Klara300 Tolmet`,
+    name: `Opryskiwacz zawieszany Klara 300 Tolmet`,
     imgUrl: klara300,
     searcherImg: tolmet,
     route: "/opryskiwacze-zawieszane/klara-300-tolmet",
     id: 162,
   },
   {
-    name: `Opryskiwacz zawieszany Klara400 Tolmet`,
+    name: `Opryskiwacz zawieszany Klara 400 Tolmet`,
     imgUrl: klara400,
     searcherImg: tolmet,
     route: "/opryskiwacze-zawieszane/klara-400-tolmet",
     id: 163,
   },
   {
-    name: `Opryskiwacz zawieszany Klara600 Tolmet`,
+    name: `Opryskiwacz zawieszany Klara 600 Tolmet`,
     imgUrl: klara600,
     searcherImg: tolmet,
     route: "/opryskiwacze-zawieszane/klara-600-tolmet",
     id: 164,
   },
   {
-    name: `Opryskiwacz zawieszany Klara800 Tolmet`,
+    name: `Opryskiwacz zawieszany Klara 800 Tolmet`,
     imgUrl: klara800,
     searcherImg: tolmet,
     route: "/opryskiwacze-zawieszane/klara-800-tolmet",
     id: 165,
   },
   {
-    name: `Opryskiwacz zawieszany Klara1000 Tolmet`,
+    name: `Opryskiwacz zawieszany Klara 1000 Tolmet`,
     imgUrl: klara1000,
     searcherImg: tolmet,
     route: "/opryskiwacze-zawieszane/klara-1000-tolmet",
     id: 166,
   },
   {
-    name: `Opryskiwacz zawieszany Klara1200 Tolmet`,
+    name: `Opryskiwacz zawieszany Klara 1200 Tolmet`,
     imgUrl: klara1200,
     searcherImg: tolmet,
     route: "/opryskiwacze-zawieszane/klara-1200-tolmet",
@@ -1218,7 +1212,7 @@ const data = [
     id: 170,
   },
   {
-    name: `Opryskiwacz zawieszany Xsara 600l`,
+    name: `Opryskiwacz zawieszany Xsara 600/12/15ml`,
     imgUrl: xsara600,
     searcherImg: tolmet,
     route: "/opryskiwacze-zawieszane/xsara-600",
@@ -1232,35 +1226,35 @@ const data = [
     id: 172,
   },
   {
-    name: `Opryskiwacz zawieszany Xsara 1000l`,
+    name: `Opryskiwacz zawieszany Xsara 1000l/12/15m`,
     imgUrl: xsara1000,
     searcherImg: tolmet,
     route: "/opryskiwacze-zawieszane/xsara-1000",
     id: 173,
   },
   {
-    name: `Opryskiwacz zawieszany Xsara 1200l`,
+    name: `Opryskiwacz zawieszany Xsara 1200l/12/15m`,
     imgUrl: xsara1200,
     searcherImg: tolmet,
     route: "/opryskiwacze-zawieszane/xsara-1200",
     id: 174,
   },
   {
-    name: `Opryskiwacz zawieszany z belką hydraulicznie zawieszaną Promar HX`,
+    name: `Opryskiwacz zawieszany z belką hydraulicznie rozkładaną Promar HX 800/1000/1200l/15m`,
     imgUrl: MountedPromarHX,
     searcherImg: promar,
     route: "/opryskiwacze-zawieszane/promar-hx",
     id: 175,
   },
   {
-    name: `Opryskiwacz zawieszany z belką włoską Promar HI`,
+    name: `Opryskiwacz zawieszany z belką hydraulicznie rozkładaną HI 800/1000/1200l/15m`,
     imgUrl: MountedPromarHI,
     searcherImg: promar,
     route: "/opryskiwacze-zawieszane/promar-hi",
     id: 176,
   },
   {
-    name: `Opryskiwacz zawieszany z belką polową włoską Promar HU`,
+    name: `Opryskiwacz zawieszany z belką hydraulicznie rozkładaną Promar HU`,
     imgUrl: MountedPromarHU,
     searcherImg: promar,
     route: "/opryskiwacze-zawieszane/promar-hu",

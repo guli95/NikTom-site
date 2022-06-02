@@ -46,6 +46,9 @@ const CompactAstatTolmet = () => (
           <li>
             <span>rozstaw pomiędzy belkami talerzowymi 920mm</span>
           </li>
+          <li>
+            <span>dwa rzędy talerzy na amortyzacji gumowej</span>
+          </li>
         </ul>
         <ul className="long-list">
           <h3>Wyposażenie dodatkowe</h3>
